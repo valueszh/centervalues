@@ -125,4 +125,67 @@ ideologies = [
             "cord": 0
         }
     },
+    {
+        "name": "Extremist Spy",
+        "stats": {
+            "ther": 100,
+            "belf": 0,
+            "polc": 100,
+            "cord": 0
+        }
+    },
+    {
+        "name": "True Centrist",
+        "stats": {
+            "ther": 0,
+            "belf": 100,
+            "polc": 0,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Boomer",
+        "stats": {
+            "ther": 0,
+            "belf": 50,
+            "polc": 0,
+            "cord": 50
+        }
+    },
+    {
+        "name": "Weakling",
+        "stats": {
+            "ther": 100,
+            "belf": 100,
+            "polc": 0,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Based and Redpilled",
+        "stats": {
+            "ther": 0,
+            "belf": 0,
+            "polc": 100,
+            "cord": 0
+        }
+    },
+    {
+        "name": "Hellgriller",
+        "stats": {
+            "ther": 0,
+            "belf": 0,
+            "polc": 0,
+            "cord": 0
+        }
+    },
+    {
+        "name": "Senatorialist",
+        "stats": {
+            "ther": 0,
+            "belf": 0,
+            "polc": 100,
+            "cord": 100
+        }
+    },
 ];
