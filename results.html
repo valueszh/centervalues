@@ -136,9 +136,9 @@
 	    for (var i = 0; i < ideologies.length; i++) {
 	        dist = 0
 	        dist += Math.pow(Math.abs(ideologies[i].stats.ther - axes), 2)
-	        dist += Math.pow(Math.abs(ideologies[i].stats.polc - moderate), 2)
-	        dist += Math.pow(Math.abs(ideologies[i].stats.belf - radical), 1.73856063)
-	        dist += Math.pow(Math.abs(ideologies[i].stats.cord - dead), 1.73856063)
+	        dist += Math.pow(Math.abs(ideologies[i].stats.belf - moderate), 2)
+	        dist += Math.pow(Math.abs(ideologies[i].stats.polc - political), 2)
+	        dist += Math.pow(Math.abs(ideologies[i].stats.cord - dead), 2)
 	        if (dist < ideodist) {
 	            ideology = ideologies[i].name
 	            ideodist = dist
