@@ -63,6 +63,24 @@ questions = [
         }
     },
             {
+        "question": "All libs are leftists.",
+        "effect": {
+            "ther": -10,
+            "belf": 0,
+            "polc": 0,
+            "cord": 0
+        }
+    },
+            {
+        "question": "Theists and atheists are equally vocal and annoying.",
+        "effect": {
+            "ther": -10,
+            "belf": 0,
+            "polc": 0,
+            "cord": 0
+        }
+    },
+    {
         "question": "Current political status quo is okay, even if it needs minor improvements.",
         "effect": {
             "ther": 0,
@@ -134,6 +152,24 @@ questions = [
             "cord": 0
         }
     },
+    {
+        "question": "I would not participate in any kind of protest, even if the issue is important to me, if there is a possibility that things will get violent.",
+        "effect": {
+            "ther": 0,
+            "belf": 10,
+            "polc": 0,
+            "cord": 0
+        }
+    },
+    {
+        "question": "I would not participate in any kind of protest.",
+        "effect": {
+            "ther": 0,
+            "belf": 0,
+            "polc": -10,
+            "cord": 0
+        }
+    },
                {
         "question": "Serious political media does not interest me.",
         "effect": {
@@ -189,7 +225,25 @@ questions = [
         }
     },
     {
-        "question": "ONLY ONE of these is correct:Righ-Wingers generally provide more logical and constructive arguments | Left-Wingers are reasonable.",
+        "question": "Whenever someone talks about something even slightly related to social issues, I tell them to quit being so political or at least think about telling them so.",
+        "effect": {
+            "ther": 0,
+            "belf": 0,
+            "polc": -10,
+            "cord": 0
+        }
+    },
+    {
+        "question": "If I see a political show and/or news on TV, I change the channel.",
+        "effect": {
+            "ther": 0,
+            "belf": 0,
+            "polc": -10,
+            "cord": 0
+        }
+    },
+    {
+        "question": "ONLY ONE of these is correct: Righ-Wingers generally provide more logical and constructive arguments | Left-Wingers are reasonable.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -198,7 +252,7 @@ questions = [
         }
     },
         {
-        "question": "ONLY ONE of these is correct:The freer the markets, the freer the people | The freer the people, the freer the markets.",
+        "question": "ONLY ONE of these is correct: The freer the markets, the freer the people | The freer the people, the freer the markets.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -207,7 +261,7 @@ questions = [
         }
     },
        {
-        "question": "ONLY ONE of these is correct:White identarians are not racists | Furries are not gay.",
+        "question": "ONLY ONE of these is correct: White identarians are not racists | Furries are not gay.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -216,7 +270,7 @@ questions = [
         }
      },
             {
-        "question": "ONLY ONE of these is correct:Communalism means robbery | Social darwinism means murder.",
+        "question": "ONLY ONE of these is correct: Communalism means robbery | Social darwinism means murder.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -225,7 +279,7 @@ questions = [
         }
      },
           {
-        "question": "ONLY ONE of these is correct:Totalitarism is an unnecessary evil | Anarchy is unnecessary chaos.",
+        "question": "ONLY ONE of these is correct: Totalitarism is an unnecessary evil | Anarchy is unnecessary chaos.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -234,7 +288,7 @@ questions = [
         }
      },
         {
-        "question": "ONLY ONE of these is correct:Most herbivore animals are opportunistic carnivores | Animal cruelty is an issue that needs to be dealt with.",
+        "question": "ONLY ONE of these is correct: Most herbivore animals are opportunistic carnivores | Animal cruelty is an issue that needs to be dealt with.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -243,7 +297,25 @@ questions = [
         }
      },
       {
-        "question": "ONLY ONE of these is correct:Police don't need guns to protect people | Citizens don't need guns to protect themselves.",
+        "question": "ONLY ONE of these is correct: Police don't need guns to protect people | Citizens don't need guns to protect themselves.",
+        "effect": {
+            "ther": 0,
+            "belf": 0,
+            "polc": 0,
+            "cord": -10
+        }
+     },
+      {
+        "question": "ONLY ONE of these is correct: I love my country/nation | Most choices my country makes are very questionable.",
+        "effect": {
+            "ther": 0,
+            "belf": 0,
+            "polc": 0,
+            "cord": -10
+        }
+     },
+      {
+        "question": "ONLY ONE of these is correct: There is no morality without god | If god exists, he's either not omnipotent or not benevolent.",
         "effect": {
             "ther": 0,
             "belf": 0,
