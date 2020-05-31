@@ -68,7 +68,7 @@ ideologies = [
             "ther": 50,
             "belf": 50,
             "polc": 50,
-            "cord": 0
+            "cord": 100
         }
     },
     {
@@ -77,7 +77,7 @@ ideologies = [
             "ther": 50,
             "belf": 50,
             "polc": 50,
-            "cord": 100
+            "cord": 0
         }
     },
     {
@@ -137,9 +137,9 @@ ideologies = [
     {
         "name": "True Centrist",
         "stats": {
-            "ther": 0,
+            "ther": 25,
             "belf": 100,
-            "polc": 0,
+            "polc": 75,
             "cord": 100
         }
     },
@@ -249,6 +249,96 @@ ideologies = [
             "belf": 100,
             "polc": 100,
             "cord": 100
+        }
+    },
+    {
+        "name": "Fishhook theorist",
+        "stats": {
+            "ther": 25,
+            "belf": 50,
+            "polc": 50,
+            "cord": 0
+        }
+    },
+    {
+        "name": "Centrist Anti-Centrist",
+        "stats": {
+            "ther": 100,
+            "belf": 0,
+            "polc": 75,
+            "cord": 75
+        }
+    },
+    {
+        "name": "Moderate Anti-Centrist",
+        "stats": {
+            "ther": 100,
+            "belf": 100,
+            "polc": 100,
+            "cord": 50
+        }
+    },
+    {
+        "name": "Fake Centrist",
+        "stats": {
+            "ther": 50,
+            "belf": 50,
+            "polc": 100,
+            "cord": 0
+        }
+    },
+    {
+        "name": "Radical Centrist",
+        "stats": {
+            "ther": 75,
+            "belf": 0,
+            "polc": 100,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Anti-Extremist",
+        "stats": {
+            "ther": 0,
+            "belf": 100,
+            "polc": 50,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Apolitical",
+        "stats": {
+            "ther": 0,
+            "belf": 50,
+            "polc": 0,
+            "cord": 75
+        }
+    },
+    {
+        "name": "Radical Apolitical",
+        "stats": {
+            "ther": 0,
+            "belf": 0,
+            "polc": 0,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Political Nihilist",
+        "stats": {
+            "ther": 50,
+            "belf": 50,
+            "polc": 0,
+            "cord": 0
+        }
+    },
+    {
+        "name": "Centrist Sympathiser",
+        "stats": {
+            "ther": 100,
+            "belf": 50,
+            "polc": 100,
+            "cord": 0
         }
     },
 ];
