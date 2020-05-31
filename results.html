@@ -127,18 +127,18 @@
 	    setBarValue("dead", dead)
 	
 	    document.getElementById("Theoretic-label").innerHTML = setLabel(axes, therArray)
-	    document.getElementById("Beliefal-label").innerHTML = setLabel(radical, belfArray)
+	    document.getElementById("Beliefal-label").innerHTML = setLabel(moderate, belfArray)
 	    document.getElementById("Politic-label").innerHTML = setLabel(political, polcArray)
-	    document.getElementById("Coordinatic-label").innerHTML = setLabel(leaning, cordArray)
+	    document.getElementById("Coordinatic-label").innerHTML = setLabel(dead, cordArray)
 	
 	    ideology = ""
 	    ideodist = Infinity
 	    for (var i = 0; i < ideologies.length; i++) {
 	        dist = 0
 	        dist += Math.pow(Math.abs(ideologies[i].stats.ther - axes), 2)
-	        dist += Math.pow(Math.abs(ideologies[i].stats.polc - political), 2)
+	        dist += Math.pow(Math.abs(ideologies[i].stats.polc - moderate), 2)
 	        dist += Math.pow(Math.abs(ideologies[i].stats.belf - radical), 1.73856063)
-	        dist += Math.pow(Math.abs(ideologies[i].stats.cord - leaning), 1.73856063)
+	        dist += Math.pow(Math.abs(ideologies[i].stats.cord - dead), 1.73856063)
 	        if (dist < ideodist) {
 	            ideology = ideologies[i].name
 	            ideodist = dist
