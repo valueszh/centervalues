@@ -323,4 +323,40 @@ questions = [
             "cord": -10
         }
      },
+      {
+        "question": "Whenever I see people arguing, I try to find compromise between both opinions instead of taking sides.",
+        "effect": {
+            "ther": 0,
+            "belf": 10,
+            "polc": 0,
+            "cord": 10
+        }
+     },
+      {
+        "question": "The more axes a political test has, the better.",
+        "effect": {
+            "ther": 10,
+            "belf": -10,
+            "polc": 0,
+            "cord": 0
+        }
+     },
+      {
+        "question": "All modern-day politicians are extremely close to each other in their political beliefs.",
+        "effect": {
+            "ther": -10,
+            "belf": 0,
+            "polc": -10,
+            "cord": 0
+        }
+     },
+      {
+        "question": "Not choosing a lesser evil will give rise to a greater evil.",
+        "effect": {
+            "ther": 0,
+            "belf": 0,
+            "polc": 10,
+            "cord": -10
+        }
+     },
 ];
