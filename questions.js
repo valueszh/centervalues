@@ -153,7 +153,7 @@ questions = [
         }
     },
     {
-        "question": "I would not participate in any kind of protest, even if the issue is important to me, if there is a possibility that things will get violent.",
+        "question": "I would only participate in a protest if I'm sure that things will not get violent.",
         "effect": {
             "ther": 0,
             "belf": 10,
