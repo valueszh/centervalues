@@ -189,7 +189,7 @@ questions = [
         }
     },
     {
-        "question": "I agree with ONLY ONE of these: Righ-Wingers generally provide more logical and constructive arguments | Left-Wingers are reasonable.",
+        "question": "ONLY ONE of these is correct:Righ-Wingers generally provide more logical and constructive arguments | Left-Wingers are reasonable.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -198,7 +198,7 @@ questions = [
         }
     },
         {
-        "question": "I agree with ONLY ONE of these: The freer the markets, the freer the people | The freer the people, the freer the markets.",
+        "question": "ONLY ONE of these is correct:The freer the markets, the freer the people | The freer the people, the freer the markets.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -207,7 +207,7 @@ questions = [
         }
     },
        {
-        "question": "I agree with ONLY ONE of these: White identarians are not racists | Furries are not gay.",
+        "question": "ONLY ONE of these is correct:White identarians are not racists | Furries are not gay.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -216,7 +216,7 @@ questions = [
         }
      },
             {
-        "question": "I agree with ONLY ONE of these: Communalism means robbery | Social darwinism means murder.",
+        "question": "ONLY ONE of these is correct:Communalism means robbery | Social darwinism means murder.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -225,7 +225,7 @@ questions = [
         }
      },
           {
-        "question": "I agree with ONLY ONE of these: Totalitarism is an unnecessary evil | Anarchy is unnecessary chaos.",
+        "question": "ONLY ONE of these is correct:Totalitarism is an unnecessary evil | Anarchy is unnecessary chaos.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -234,7 +234,7 @@ questions = [
         }
      },
         {
-        "question": "I agree with ONLY ONE of these: Most herbivore animals are opportunistic carnivores | Animal cruelty is an issue that needs to be dealt with.",
+        "question": "ONLY ONE of these is correct:Most herbivore animals are opportunistic carnivores | Animal cruelty is an issue that needs to be dealt with.",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -243,7 +243,7 @@ questions = [
         }
      },
       {
-        "question": "I agree with ONLY ONE of these: Police don't need guns to protect people | Citizens don't need guns to protect themselves.",
+        "question": "ONLY ONE of these is correct:Police don't need guns to protect people | Citizens don't need guns to protect themselves.",
         "effect": {
             "ther": 0,
             "belf": 0,
