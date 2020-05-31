@@ -1,0 +1,234 @@
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+	<link href='style.css' rel='stylesheet' type='text/css'>
+	<title>8values Results</title>
+	<link rel="icon" type="x-icon" href="icon.png">
+	<link rel="shortcut icon" type="x-icon" href="icon.png">
+	<meta charset="utf-8">
+	<script>
+	  version = "Test Edition #1" //Remember to update this before making changes to the test itself!
+	</script>
+	</head>
+	<script type="application/javascript"
+	        src="ideologies.js">
+	</script>
+	
+	<body>
+	<h1>8values</h1>
+	<hr>
+	
+	<h1>Results</h1>
+	
+	<h2>Theoretic Axis: <span class="weight-300" id="Theoretic-label"></span></h2>
+	<div class="axis">
+	    <img id="img-axes" src="value_images/IconAxes.png" height="128pt"/>
+	    <div class="bar axes" id="bar-axes"><div class="text-wrapper" id="axes"></div></div>
+	    <div class="bar horseshoe" id="bar-horseshoe"><div class="text-wrapper" id="horseshoe"></div></div>
+	    <img id="img-horseshoe" src="value_images/IconSame.png" height="128pt"/>
+	</div>
+	<h2>Beliefal Axis: <span class="weight-300" id="Beliefal-label"></span></h2>
+	<div class="axis">
+	    <img id="img-moderate" src="value_images/IconMod.png" height="128pt"/>
+	    <div class="bar moderate" id="bar-moderate"><div class="text-wrapper" id="moderate"></div></div>
+	    <div class="bar radical" id="bar-radical"><div class="text-wrapper" id="radical"></div></div>
+	    <img id="img-radical" src="value_images/IconRad.png" height="128pt"/>
+	</div>
+	<h2>Politic Axis: <span class="weight-300" id="Politic-label"></span></h2>
+	<div class="axis">
+	    <img id="img-political" src="value_images/IconPol.png" height="128pt"/>
+	    <div class="bar political" id="bar-political"><div class="text-wrapper" id="political"></div></div>
+	    <div class="bar apolitical" id="bar-apolitical"><div class="text-wrapper" id="apolitical"></div></div>
+	    <img id="img-apolitical" src="value_images/IconApol.png" height="128pt"/>
+	</div>
+	<h2>Coordinatic Axis: <span class="weight-300" id="Coordinatic-label"></span></h2>
+	<div class="axis">
+	    <img id="img-dead" src="value_images/IconDead.png" height="128pt"/>
+	    <div class="bar dead" id="bar-dead"><div class="text-wrapper" id="dead"></div></div>
+	    <div class="bar leaning" id="bar-leaning"><div class="text-wrapper" id="leaning"></div></div>
+	    <img id="img-leaning" src="value_images/IconLean.png" height="128pt"/>
+	</div>
+	<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
+	<p>Ideological matching is a work in leaning, and is much less accurate than the values and axes.</p>
+	<p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
+	<hr/>
+	<img src="" id="banner">
+	<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
+	<!-- Website visit statistics - no personal information is collected! -->
+	<script type="text/javascript">
+	var sc_project=11325211;
+	var sc_invisible=1;
+	var sc_security="fd9f0659";
+	var scJsHost = (("https:" == document.location.protocol) ?
+	"https://secure." : "http://www.");
+	document.write("<sc"+"ript type='text/javascript' src='" +
+	scJsHost+
+	"statcounter.com/counter/counter.js'></"+"script>");
+	</script>
+	<noscript><div class="statcounter"><a title="web stats"
+	href="http://statcounter.com/" target="_blank"><img
+	class="statcounter"
+	src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
+	stats"></a></div></noscript>
+	<script>
+	    function getQueryVariable(variable)
+	    {
+	           var query = window.location.search.substring(1)
+	           var vars = query.split("&")
+	           for (var i=0;i<vars.length;i++) {
+	                   var pair = vars[i].split("=")
+	                   if(pair[0] == variable) {return pair[1]}
+	           }
+	           return(NaN);
+	    }
+	
+	    function setBarValue(name, value) {
+	        innerel = document.getElementById(name)
+	        outerel = document.getElementById("bar-" + name)
+	        outerel.style.width = (value + "%")
+	        innerel.innerHTML = (value + "%")
+	        if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
+	            innerel.style.visibility = "hidden"
+	        }
+	    }
+	
+	    therArray = ["100axes Theorist","9axes Theorist","Political Compass Theorist","This","Horseshoe Theorist","Donut Theorist","Everyone's stupid but me"]
+	    belfArray = ["Spineless","Anti-Radical","Cute","Joke","Semi-Radical","Radical","Every Extreme"]
+	    polcArray = ["Politician","Serious","Educated","Isn't","Unflaired","Apolitical","Griller"]
+	    cordArray = ["Requiem","Dead","Balanced","Funny","Slightly Leaning","Edgy","Extremist"]
+	
+	    function setLabel(val,ary) {
+	        if (val > 100) { return "" } else
+	        if (val > 90) { return ary[0] } else
+	        if (val > 75) { return ary[1] } else
+	        if (val > 60) { return ary[2] } else
+	        if (val >= 40) { return ary[3] } else
+	        if (val >= 25) { return ary[4] } else
+	        if (val >= 10) { return ary[5] } else
+	        if (val >= 0) { return ary[6] } else
+	        	{return ""}
+	    }
+	
+	    axes  = getQueryVariable("e")
+	    radical     = getQueryVariable("d")
+	    political   = getQueryVariable("g")
+	    leaning  = getQueryVariable("s")
+	    horseshoe    = (100 - axes).toFixed(1)
+	    moderate     = (100 - radical   ).toFixed(1)
+	    apolitical = (100 - political ).toFixed(1)
+	    dead = (100 - leaning).toFixed(1)
+	
+	    setBarValue("axes", axes)
+	    setBarValue("horseshoe", horseshoe)
+	    setBarValue("radical", radical)
+	    setBarValue("moderate", moderate)
+	    setBarValue("political", political)
+	    setBarValue("apolitical", apolitical)
+	    setBarValue("leaning", leaning)
+	    setBarValue("dead", dead)
+	
+	    document.getElementById("Theoretic-label").innerHTML = setLabel(axes, therArray)
+	    document.getElementById("Beliefal-label").innerHTML = setLabel(radical, belfArray)
+	    document.getElementById("Politic-label").innerHTML = setLabel(political, polcArray)
+	    document.getElementById("Coordinatic-label").innerHTML = setLabel(leaning, cordArray)
+	
+	    ideology = ""
+	    ideodist = Infinity
+	    for (var i = 0; i < ideologies.length; i++) {
+	        dist = 0
+	        dist += Math.pow(Math.abs(ideologies[i].stats.ther - axes), 2)
+	        dist += Math.pow(Math.abs(ideologies[i].stats.polc - political), 2)
+	        dist += Math.pow(Math.abs(ideologies[i].stats.belf - radical), 1.73856063)
+	        dist += Math.pow(Math.abs(ideologies[i].stats.cord - leaning), 1.73856063)
+	        if (dist < ideodist) {
+	            ideology = ideologies[i].name
+	            ideodist = dist
+	        }
+	    }
+	    document.getElementById("ideology-label").innerHTML = ideology
+	
+	    function createImage(src, x, y, w, h) {
+	        img = new Image ()
+	        img.src = src
+	        img.onLoad = function() {
+	            ctx.drawImage(img, x, y, w, h)
+	        }
+	    }
+	
+	    window.onload = function() {
+	        var c = document.createElement("canvas")
+	        var ctx = c.getContext("2d")
+	        c.width = 800;
+	        c.height = 650;
+	        ctx.fillStyle = "#EEEEEE"
+	        ctx.fillRect(0,0,800,650);
+	
+	        img = document.getElementById("img-axes")
+	        ctx.drawImage(img, 20, 170, 100, 100);
+	        img = document.getElementById("img-horseshoe")
+	        ctx.drawImage(img, 680, 170, 100, 100)
+	        img = document.getElementById("img-moderate")
+	        ctx.drawImage(img, 20, 290, 100, 100)
+	        img = document.getElementById("img-radical")
+	        ctx.drawImage(img, 680, 290, 100, 100)
+	        img = document.getElementById("img-political")
+	        ctx.drawImage(img, 20, 410, 100, 100)
+	        img = document.getElementById("img-apolitical")
+	        ctx.drawImage(img, 680, 410, 100, 100)
+	        img = document.getElementById("img-dead")
+	        ctx.drawImage(img, 20, 530, 100, 100)
+	        img = document.getElementById("img-leaning")
+	        ctx.drawImage(img, 680, 530, 100, 100)
+	
+	        ctx.fillStyle="#222222"
+	        ctx.fillRect(120, 180, 560, 80)
+	        ctx.fillRect(120, 300, 560, 80)
+	        ctx.fillRect(120, 420, 560, 80)
+	        ctx.fillRect(120, 540, 560, 80)
+	        ctx.fillStyle="#f44336"
+	        ctx.fillRect(120, 184, 5.6*axes-2, 72)
+	        ctx.fillStyle="#00897b"
+	        ctx.fillRect(682-5.6*horseshoe, 184, 5.6*horseshoe-2, 72)
+	        ctx.fillStyle="#ff9800"
+	        ctx.fillRect(120, 304, 5.6*moderate-2, 72)
+	        ctx.fillStyle="#03a9f4"
+	        ctx.fillRect(682-5.6*radical, 304, 5.6*radical-2, 72)
+	        ctx.fillStyle="#ffeb3b"
+	        ctx.fillRect(120, 424, 5.6*political-2, 72)
+	        ctx.fillStyle="#3f51b5"
+	        ctx.fillRect(682-5.6*apolitical, 424, 5.6*apolitical-2, 72)
+	        ctx.fillStyle="#8bc34a"
+	        ctx.fillRect(120, 544, 5.6*dead-2, 72)
+	        ctx.fillStyle="#9c27b0"
+	        ctx.fillRect(682-5.6*leaning, 544, 5.6*leaning-2, 72)
+	        ctx.fillStyle="#222222"
+	        ctx.font="700 80px Montserrat"
+	        ctx.textAlign="left"
+	        ctx.fillText("8values", 20, 90)
+	        ctx.font="50px Montserrat"
+	        ctx.fillText(ideology, 20, 140)
+	
+	        ctx.textAlign="left"
+	        if (axes  > 30) {ctx.fillText(axes + "%", 130, 237.5)}
+	        if (moderate     > 30) {ctx.fillText(moderate + "%", 130, 357.5)}
+	        if (political   > 30) {ctx.fillText(political + "%", 130, 477.5)}
+	        if (dead > 30) {ctx.fillText(dead + "%", 130, 597.5)}
+	        ctx.textAlign="right"
+	        if (horseshoe    > 30) {ctx.fillText(horseshoe + "%", 670, 237.5)}
+	        if (radical     > 30) {ctx.fillText(radical + "%", 670, 357.5)}
+	        if (apolitical > 30) {ctx.fillText(apolitical + "%", 670, 477.5)}
+	        if (leaning  > 30) {ctx.fillText(leaning + "%", 670, 597.5)}
+	
+	        ctx.font="300 30px Montserrat"
+	        ctx.fillText("8values.github.io", 780, 60)
+			ctx.fillText(version, 780, 90)
+	        ctx.textAlign="center"
+	        ctx.fillText("Theoretic Axis: " + document.getElementById("Theoretic-label").innerHTML, 400, 175)
+	        ctx.fillText("Beliefal Axis: " + document.getElementById("Beliefal-label").innerHTML, 400, 295)
+	        ctx.fillText("Politic Axis: " + document.getElementById("Politic-label").innerHTML, 400, 415)
+	        ctx.fillText("Coordinatic Axis: " + document.getElementById("Coordinatic-label").innerHTML, 400, 535)
+	
+	        document.getElementById("banner").src = c.toDataURL();
+	    }
+	    </script>
+	</body>
+
