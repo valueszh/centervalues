@@ -9,7 +9,7 @@ ideologies = [
         }
     },
     {
-        "name": "Number of people = Number of ideologies",
+        "name": "№ of people = № of ideologies",
         "stats": {
             "ther": 100,
             "belf": 50,
@@ -339,6 +339,33 @@ ideologies = [
             "belf": 50,
             "polc": 100,
             "cord": 0
+        }
+    },
+    {
+        "name": "Singularity Centrism",
+        "stats": {
+            "ther": 100,
+            "belf": 50,
+            "polc": 50,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Extremism",
+        "stats": {
+            "ther": 100,
+            "belf": 50,
+            "polc": 50,
+            "cord": 0
+        }
+    },
+    {
+        "name": "Anti-flairism",
+        "stats": {
+            "ther": 50,
+            "belf": 0,
+            "polc": 25,
+            "cord": 50
         }
     },
 ];
