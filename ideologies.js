@@ -368,4 +368,76 @@ ideologies = [
             "cord": 50
         }
     },
+    {
+        "name": "Normie",
+        "stats": {
+            "ther": 50,
+            "belf": 100,
+            "polc": 0,
+            "cord": 50
+        }
+    },
+    {
+        "name": "Radical Moderate",
+        "stats": {
+            "ther": 0,
+            "belf": 25,
+            "polc": 0,
+            "cord": 75
+        }
+    },
+    {
+        "name": "Aroace Agender Apolitical Atheist",
+        "stats": {
+            "ther": 100,
+            "belf": 25,
+            "polc": 0,
+            "cord": 25
+        }
+    },
+    {
+        "name": "Fence with windows",
+        "stats": {
+            "ther": 75,
+            "belf": 50,
+            "polc": 75,
+            "cord": 25
+        }
+    },
+    {
+        "name": "Contradictionalism",
+        "stats": {
+            "ther": 100,
+            "belf": 0,
+            "polc": 0,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Populism",
+        "stats": {
+            "ther": 100,
+            "belf": 25,
+            "polc": 100,
+            "cord": 50
+        }
+    },
+    {
+        "name": "Extremist Centrism",
+        "stats": {
+            "ther": 100,
+            "belf": 0,
+            "polc": 100,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Gravitational Centrism",
+        "stats": {
+            "ther": 50,
+            "belf": 0,
+            "polc": 0,
+            "cord": 100
+        }
+    },
 ];
