@@ -18,7 +18,7 @@ ideologies = [
         }
     },
     {
-        "name": "Centristic Centrism",
+        "name": "Meta-Centrism",
         "stats": {
             "ther": 50,
             "belf": 50,
