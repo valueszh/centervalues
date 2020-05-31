@@ -109,13 +109,13 @@
 	    }
 	
 	    axes  = getQueryVariable("e")
-	    radical     = getQueryVariable("d")
+	    moderate     = getQueryVariable("d")
 	    political   = getQueryVariable("g")
-	    leaning  = getQueryVariable("s")
+	    dead  = getQueryVariable("s")
 	    horseshoe    = (100 - axes).toFixed(1)
-	    moderate     = (100 - radical   ).toFixed(1)
-	    apolitical = (100 - political ).toFixed(1)
-	    dead = (100 - leaning).toFixed(1)
+	    radical  = (100 - moderate).toFixed(1)
+	    apolitical = (100 - political).toFixed(1)
+	    leaning = (100 - dead).toFixed(1)
 	
 	    setBarValue("axes", axes)
 	    setBarValue("horseshoe", horseshoe)
