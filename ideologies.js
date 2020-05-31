@@ -144,7 +144,7 @@ ideologies = [
         }
     },
     {
-        "name": "Boomer",
+        "name": "Boomer Centrist",
         "stats": {
             "ther": 0,
             "belf": 50,
@@ -153,7 +153,7 @@ ideologies = [
         }
     },
     {
-        "name": "Weakling",
+        "name": "Weakling Centrist",
         "stats": {
             "ther": 100,
             "belf": 100,
@@ -184,6 +184,69 @@ ideologies = [
         "stats": {
             "ther": 0,
             "belf": 0,
+            "polc": 100,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Moralist",
+        "stats": {
+            "ther": 100,
+            "belf": 100,
+            "polc": 25,
+            "cord": 50
+        }
+    },
+    {
+        "name": "Realist",
+        "stats": {
+            "ther": 100,
+            "belf": 100,
+            "polc": 100,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Inversive Realist",
+        "stats": {
+            "ther": 0,
+            "belf": 50,
+            "polc": 100,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Boring Realist",
+        "stats": {
+            "ther": 50,
+            "belf": 100,
+            "polc": 0,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Immoralist",
+        "stats": {
+            "ther": 50,
+            "belf": 0,
+            "polc": 50,
+            "cord": 0
+        }
+    },
+    {
+        "name": "Occam Realist",
+        "stats": {
+            "ther": 25,
+            "belf": 100,
+            "polc": 50,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Orwellian Realist",
+        "stats": {
+            "ther": 0,
+            "belf": 100,
             "polc": 100,
             "cord": 100
         }
