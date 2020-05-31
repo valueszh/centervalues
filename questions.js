@@ -2,7 +2,7 @@ questions = [
     {
         "question": "Giving lots of power to megacorporations is not much different from giving same ammount of power to the goverment.",
         "effect": {
-            "ther": 10,
+            "ther": -10,
             "belf": 0,
             "polc": 0,
             "cord": 0
@@ -11,7 +11,7 @@ questions = [
         {
         "question": "Nazis and communists are basically the same.",
         "effect": {
-            "ther": 10,
+            "ther": -10,
             "belf": 0,
             "polc": 0,
             "cord": 0
@@ -20,7 +20,7 @@ questions = [
             {
         "question": "Anarcho-(insert_random_ideology_name) is the same as any other type of anarchism.",
         "effect": {
-            "ther": 10,
+            "ther": -10,
             "belf": 0,
             "polc": 0,
             "cord": 0
@@ -29,7 +29,7 @@ questions = [
             {
         "question": "Totalitarian regimes = literally 1984, no matter the policies.",
         "effect": {
-            "ther": 10,
+            "ther": -10,
             "belf": 0,
             "polc": 0,
             "cord": 0
@@ -38,7 +38,7 @@ questions = [
             {
         "question": "Anti-fascist and social justice movements are as biggoted as those whom they oppose.",
         "effect": {
-            "ther": 10,
+            "ther": -10,
             "belf": 0,
             "polc": 0,
             "cord": 0
@@ -47,7 +47,7 @@ questions = [
             {
         "question": "Everyone far-right is a nazi.",
         "effect": {
-            "ther": 10,
+            "ther": -10,
             "belf": 0,
             "polc": 0,
             "cord": 0
@@ -56,7 +56,7 @@ questions = [
             {
         "question": "Everyone far-left is a stalinist.",
         "effect": {
-            "ther": 10,
+            "ther": -10,
             "belf": 0,
             "polc": 0,
             "cord": 0
@@ -66,7 +66,7 @@ questions = [
         "question": "Current political status quo is okay, even if it needs minor improvements.",
         "effect": {
             "ther": 0,
-            "belf": -10,
+            "belf": 10,
             "polc": 0,
             "cord": 0
         }
@@ -75,7 +75,7 @@ questions = [
         "question": "Whoever wrote the previous question has a major case of dumb.",
         "effect": {
             "ther": 0,
-            "belf": 10,
+            "belf": -10,
             "polc": 0,
             "cord": 0
         }
@@ -84,7 +84,7 @@ questions = [
         "question": "Technological, cultural and societal progress go hand-in-hand with each other.",
         "effect": {
             "ther": 0,
-            "belf": -10,
+            "belf": 10,
             "polc": 0,
             "cord": 0
         }
@@ -93,7 +93,7 @@ questions = [
         "question": "The traditon/progress axis is stupid. Supporting science should not be equated to being pro-lgbt or pro-racial equality. The same goes the other way around.",
         "effect": {
             "ther": 0,
-            "belf": 10,
+            "belf": -10,
             "polc": 0,
             "cord": 0
         }
@@ -102,7 +102,7 @@ questions = [
         "question": "Extremists and/or a group I dislike deserve to fucking die. That's the only way to achieve peace.",
         "effect": {
             "ther": 0,
-            "belf": 10,
+            "belf": -10,
             "polc": 0,
             "cord": 0
         }
@@ -111,7 +111,7 @@ questions = [
         "question": "Authoritarian goverment allows the ones in control to commit serious crimes against people's rights, which is bad, but that issue shouldn't be resolved by the drastic measures of removing authority altogether.",
         "effect": {
             "ther": 0,
-            "belf": -10,
+            "belf": 10,
             "polc": 0,
             "cord": 0
         }
@@ -120,7 +120,7 @@ questions = [
         "question": "Saying that all races/cultures are the exact same is wrong, but so is thinking that racial/cultural background is the main factor in ones actions.",
         "effect": {
             "ther": 0,
-            "belf": -10,
+            "belf": 10,
             "polc": 0,
             "cord": 0
         }
@@ -129,7 +129,7 @@ questions = [
         "question": "The most drastic measure for political change is a demonstration/protest. Anything more extreme than that is just meaningless violence.",
         "effect": {
             "ther": 0,
-            "belf": -10,
+            "belf": 10,
             "polc": 0,
             "cord": 0
         }
@@ -139,7 +139,7 @@ questions = [
         "effect": {
             "ther": 0,
             "belf": 0,
-            "polc": 10,
+            "polc": -10,
             "cord": 0
         }
     },
@@ -148,7 +148,7 @@ questions = [
         "effect": {
             "ther": 0,
             "belf": 0,
-            "polc": 10,
+            "polc": -10,
             "cord": 0
         }
     },
@@ -157,7 +157,7 @@ questions = [
         "effect": {
             "ther": 0,
             "belf": 0,
-            "polc": -10,
+            "polc": 10,
             "cord": 0
         }
     },
@@ -166,7 +166,7 @@ questions = [
         "effect": {
             "ther": 0,
             "belf": 0,
-            "polc": 10,
+            "polc": -10,
             "cord": 0
         }
     },
@@ -175,7 +175,7 @@ questions = [
         "effect": {
             "ther": 0,
             "belf": 0,
-            "polc": 10,
+            "polc": -10,
             "cord": 0
         }
     },
@@ -184,7 +184,7 @@ questions = [
         "effect": {
             "ther": 0,
             "belf": 0,
-            "polc": -10,
+            "polc": 10,
             "cord": 0
         }
     },
@@ -194,7 +194,7 @@ questions = [
             "ther": 0,
             "belf": 0,
             "polc": 0,
-            "cord": 10
+            "cord": -10
         }
     },
         {
@@ -203,7 +203,7 @@ questions = [
             "ther": 0,
             "belf": 0,
             "polc": 0,
-            "cord": 10
+            "cord": -10
         }
     },
        {
@@ -212,7 +212,7 @@ questions = [
             "ther": 0,
             "belf": 0,
             "polc": 0,
-            "cord": 10
+            "cord": -10
         }
      },
             {
@@ -221,7 +221,7 @@ questions = [
             "ther": 0,
             "belf": 0,
             "polc": 0,
-            "cord": 10
+            "cord": -10
         }
      },
           {
@@ -230,7 +230,7 @@ questions = [
             "ther": 0,
             "belf": 0,
             "polc": 0,
-            "cord": 10
+            "cord": -10
         }
      },
         {
@@ -239,7 +239,7 @@ questions = [
             "ther": 0,
             "belf": 0,
             "polc": 0,
-            "cord": 10
+            "cord": -10
         }
      },
       {
@@ -248,7 +248,7 @@ questions = [
             "ther": 0,
             "belf": 0,
             "polc": 0,
-            "cord": 10
+            "cord": -10
         }
      },
 ];
