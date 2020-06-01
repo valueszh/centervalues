@@ -53,10 +53,11 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_ther, max_polc, max_wing, max_govt, max_vore, max_helf, max_smrt; // The vore is for carnivore or herbivore and not what you think
+    var max_ther, max_belf, max_polc, max_wing, max_govt, max_vore, max_helf, max_smrt; // The vore is for carnivore or herbivore and not what you think
     max_ther = max_polc = max_wing = max_govt = max_vore = max_helf = max_smrt = 0;
-    var ther, polc, wing, govt, vore, helf, smrt; // User's scores
-    ther = polc = wing = govt = vore = helf = smrt = 0;
+    max_belf = 10*questions.length;
+    var ther, belf, polc, wing, govt, vore, helf, smrt; // User's scores
+    ther = belf = polc = wing = govt = vore = helf = smrt = 0;
     var qn = 0; // Question number
     var prev_answer = null;
     init_question();
@@ -90,6 +91,21 @@ stats"></a></div></noscript>
         vore += mult*questions[qn].effect.vore
         helf += mult*questions[qn].effect.helf
         smrt += mult*questions[qn].effect.smrt
+        if (mult == 1.5 || mult == -1.5) {
+          belf -= 15;
+        }
+        if (mult == 1.25 || mult == -1.25) {
+          belf -= 12.5;
+        }
+        if (mult == 1 || mult == -1) {
+          belf += 12.5;
+        }
+        if (mult == 0.5 || mult == -0.5) {
+          belf += 15;
+        }
+        if (mult == 0.25 || mult == -0.25) {
+          polc += 10;
+        }
         qn++;
         prev_answer = mult;
         if (qn < questions.length) {
@@ -110,6 +126,21 @@ stats"></a></div></noscript>
         vore -= prev_answer * questions[qn].effect.vore;
         helf -= prev_answer * questions[qn].effect.helf;
         smrt -= prev_answer * questions[qn].effect.smrt;
+        if (mult == 1.5 || mult == -1.5) {
+          belf += 15;
+        }
+        if (mult == 1.25 || mult == -1.25) {
+          belf += 12.5;
+        }
+        if (mult == 1 || mult == -1) {
+          belf -= 12.5;
+        }
+        if (mult == 0.5 || mult == -0.5) {
+          belf -= 15;
+        }
+        if (mult == 0.25 || mult == -0.25) {
+          polc -= 10;
+        }
         prev_answer = null;
         init_question();
 
@@ -120,6 +151,7 @@ stats"></a></div></noscript>
     function results() {
         location.href = `hardresults.html`
             + `?a=${calc_score(ther,max_ther)}`
+            + `&l=${calc_score(belf,max_belf)}`
             + `&b=${calc_score(polc,max_polc)}`
             + `&c=${calc_score(wing,max_wing)}`
             + `&d=${calc_score(govt,max_govt)}`
