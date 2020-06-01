@@ -65,6 +65,8 @@ stats"></a></div></noscript>
     for (var i = 0; i < questions.length; i++) {
         max_ther += Math.abs(questions[i].effect.ther)
         max_polc += Math.abs(questions[i].effect.polc)
+        max_cord += Math.abs(questions[i].effect.wing)
+        max_cord += Math.abs(questions[i].effect.govt)
         max_wing += Math.abs(questions[i].effect.wing)
         max_govt += Math.abs(questions[i].effect.govt)
         max_vore += Math.abs(questions[i].effect.vore)
@@ -151,11 +153,26 @@ stats"></a></div></noscript>
     function calc_score(score,max) {
         return (100*(max+score)/(2*max)).toFixed(1)
     }
+    function calc_cord(score1,score2,max1,max2) {
+        var cord = -25;
+        if (100*(max1+score1)/(2*max1) < 50) {
+        cord += 50 - (100*(max1+score1)/(2*max1));
+        } else {
+        cord += (100*(max1+score1)/(2*max1)) - 50;
+        }
+        if (100*(max2+score2)/(2*max2) < 50) {
+        cord += 50 - (100*(max2+score2)/(2*max2));
+        } else {
+        cord += (100*(max2+score2)/(2*max2)) - 50;
+        }
+        return cord.toFixed(1)
+    }
     function results() {
         location.href = `hardresults.html`
             + `?a=${calc_score(ther,max_ther)}`
             + `&l=${calc_score(belf,max_belf)}`
             + `&b=${calc_score(polc,max_polc)}`
+            + `&m=${calc_cord(wing,govt,max_wing,max_govt)}`
             + `&c=${calc_score(wing,max_wing)}`
             + `&d=${calc_score(govt,max_govt)}`
             + `&e=${calc_score(vore,max_vore)}`
