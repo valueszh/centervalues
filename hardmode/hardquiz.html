@@ -104,12 +104,12 @@ stats"></a></div></noscript>
         if (mult == 0.5 || mult == -0.5) {
           belf += 15;
         }
-        if ((mult == 0.25 || mult == -0.25) && questions[qn].effect.polc == 0) {
+        prev_polc = questions[qn].effect.polc;
+        if ((mult == 0.25 || mult == -0.25) && prev_polc == 0) {
           polc += 10;
         }
         qn++;
         prev_answer = mult;
-        prev_polc = questions[qn].effect.polc;
         if (qn < questions.length) {
             init_question();
         } else {
