@@ -1,6 +1,6 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
-	<link href='style.css' rel='stylesheet' type='text/css'>
+	<link href='../style.css' rel='stylesheet' type='text/css'>
 	<title>CenterValues Results</title>
 	<link rel="icon" type="x-icon" href="hardicon.png">
 	<link rel="shortcut icon" type="x-icon" href="hardicon.png">
@@ -21,31 +21,31 @@
 	
 	<h2>Theoretic Axis: <span class="weight-300" id="Theoretic-label"></span></h2>
 	<div class="axis">
-	    <img id="img-axes" src="value-images/IconAxes.png" height="128pt"/>
+	    <img id="img-axes" src="../value-images/IconAxes.png" height="128pt"/>
 	    <div class="bar axes" id="bar-axes"><div class="text-wrapper" id="axes"></div></div>
 	    <div class="bar horseshoe" id="bar-horseshoe"><div class="text-wrapper" id="horseshoe"></div></div>
-	    <img id="img-horseshoe" src="value-images/IconSame.png" height="128pt"/>
+	    <img id="img-horseshoe" src="../value-images/IconSame.png" height="128pt"/>
 	</div>
 	<h2>Beliefal Axis: <span class="weight-300" id="Beliefal-label"></span></h2>
 	<div class="axis">
-	    <img id="img-moderate" src="value-images/IconMod.png" height="128pt"/>
+	    <img id="img-moderate" src="../value-images/IconMod.png" height="128pt"/>
 	    <div class="bar moderate" id="bar-moderate"><div class="text-wrapper" id="moderate"></div></div>
 	    <div class="bar radical" id="bar-radical"><div class="text-wrapper" id="radical"></div></div>
-	    <img id="img-radical" src="value-images/IconRad.png" height="128pt"/>
+	    <img id="img-radical" src="../value-images/IconRad.png" height="128pt"/>
 	</div>
 	<h2>Politic Axis: <span class="weight-300" id="Politic-label"></span></h2>
 	<div class="axis">
-	    <img id="img-political" src="value-images/IconPol.png" height="128pt"/>
+	    <img id="img-political" src="../value-images/IconPol.png" height="128pt"/>
 	    <div class="bar political" id="bar-political"><div class="text-wrapper" id="political"></div></div>
 	    <div class="bar apolitical" id="bar-apolitical"><div class="text-wrapper" id="apolitical"></div></div>
-	    <img id="img-apolitical" src="value-images/IconApol.png" height="128pt"/>
+	    <img id="img-apolitical" src="../value-images/IconApol.png" height="128pt"/>
 	</div>
 	<h2>Coordinatic Axis: <span class="weight-300" id="Coordinatic-label"></span></h2>
 	<div class="axis">
-	    <img id="img-dead" src="value-images/IconDead.png" height="128pt"/>
+	    <img id="img-dead" src="../value-images/IconDead.png" height="128pt"/>
 	    <div class="bar dead" id="bar-dead"><div class="text-wrapper" id="dead"></div></div>
 	    <div class="bar leaning" id="bar-leaning"><div class="text-wrapper" id="leaning"></div></div>
-	    <img id="img-leaning" src="value-images/IconLean.png" height="128pt"/>
+	    <img id="img-leaning" src="../value-images/IconLean.png" height="128pt"/>
 	</div>
   <h2>Wing Axis: <span class="weight-300" id="Wing-label"></span></h2>
 	<div class="axis">
@@ -256,7 +256,7 @@
 	        ctx.drawImage(img, 20, 530, 100, 100)
 	        img = document.getElementById("img-leaning")
 	        ctx.drawImage(img, 680, 530, 100, 100)
-          img = document.getElementById("img-leftist")
+                img = document.getElementById("img-leftist")
 	        ctx.drawImage(img, 20, 650, 100, 100);
 	        img = document.getElementById("img-rightist")
 	        ctx.drawImage(img, 680, 650, 100, 100)
@@ -272,7 +272,7 @@
 	        ctx.drawImage(img, 20, 1010, 100, 100)
 	        img = document.getElementById("img-junk")
 	        ctx.drawImage(img, 680, 1010, 100, 100)
-          img = document.getElementById("img-smart")
+                img = document.getElementById("img-smart")
 	        ctx.drawImage(img, 20, 1130, 100, 100)
 	        img = document.getElementById("img-strong")
 	        ctx.drawImage(img, 680, 1130, 100, 100)
@@ -286,11 +286,11 @@
 	        ctx.fillRect(120, 300, 560, 80)
 	        ctx.fillRect(120, 420, 560, 80)
 	        ctx.fillRect(120, 540, 560, 80)
-          ctx.fillRect(120, 660, 560, 80)
+                ctx.fillRect(120, 660, 560, 80)
 	        ctx.fillRect(120, 780, 560, 80)
 	        ctx.fillRect(120, 900, 560, 80)
 	        ctx.fillRect(120, 1020, 560, 80)
-          ctx.fillRect(120, 1140, 560, 80)
+                ctx.fillRect(120, 1140, 560, 80)
 	        ctx.fillRect(120, 1260, 560, 80)
 	        ctx.fillStyle="#264677"
 	        ctx.fillRect(120, 184, 5.6*axes-2, 72)
@@ -308,29 +308,29 @@
 	        ctx.fillRect(120, 544, 5.6*dead-2, 72)
 	        ctx.fillStyle="#147b98"
 	        ctx.fillRect(682-5.6*leaning, 544, 5.6*leaning-2, 72)
-          ctx.fillStyle="#264677"
+                ctx.fillStyle="#89192b"
 	        ctx.fillRect(120, 184, 5.6*leftist-2, 72)
-	        ctx.fillStyle="#777626"
+	        ctx.fillStyle="#6e7427"
 	        ctx.fillRect(682-5.6*rightist, 184, 5.6*rightist-2, 72)
-	        ctx.fillStyle="#424242"
+	        ctx.fillStyle="#264677"
 	        ctx.fillRect(120, 304, 5.6*statist-2, 72)
-	        ctx.fillStyle="#9e116f"
+	        ctx.fillStyle="#267752"
 	        ctx.fillRect(682-5.6*liberal, 304, 5.6*liberal-2, 72)
-	        ctx.fillStyle="#47871c"
+	        ctx.fillStyle="#169344"
 	        ctx.fillRect(120, 424, 5.6*vegan-2, 72)
-	        ctx.fillStyle="#951631"
+	        ctx.fillStyle="#7b232f"
 	        ctx.fillRect(682-5.6*meat, 424, 5.6*meat-2, 72)
-	        ctx.fillStyle="#316151"
+	        ctx.fillStyle="#169567"
 	        ctx.fillRect(120, 544, 5.6*healthy-2, 72)
-	        ctx.fillStyle="#147b98"
+	        ctx.fillStyle="#424242"
 	        ctx.fillRect(682-5.6*junk, 544, 5.6*junk-2, 72)
-          ctx.fillStyle="#47871c"
+                ctx.fillStyle="#a3708d"
 	        ctx.fillRect(120, 424, 5.6*smart-2, 72)
-	        ctx.fillStyle="#951631"
+	        ctx.fillStyle="#333161"
 	        ctx.fillRect(682-5.6*strong, 424, 5.6*strong-2, 72)
-	        ctx.fillStyle="#316151"
+	        ctx.fillStyle="#5e5932"
 	        ctx.fillRect(120, 544, 5.6*fast-2, 72)
-	        ctx.fillStyle="#147b98"
+	        ctx.fillStyle="#017dbb"
 	        ctx.fillRect(682-5.6*patient, 544, 5.6*patient-2, 72)
 	        ctx.fillStyle="#222222"
 	        ctx.font="700 80px Montserrat"
