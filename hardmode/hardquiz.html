@@ -150,9 +150,6 @@ stats"></a></div></noscript>
         init_question();
 
     }
-    function calc_score(score,max) {
-        return (100*(max+score)/(2*max)).toFixed(1)
-    }
     function calc_cord(){
             var cord = -25;
             if (100*(max_wing+wing)/(2*max_wing) < 50) {
@@ -167,17 +164,20 @@ stats"></a></div></noscript>
             }
             return cord.toFixed(1)
     }
+    function calc_score(score,max) {
+        return (100*(max+score)/(2*max)).toFixed(1)
+    }
     function results() {
         location.href = `hardresults.html`
-            + `?a=${calc_score(ther,max_ther)}`
+            + `&a=${calc_score(ther,max_ther)}`
             + `&l=${calc_score(belf,max_belf)}`
             + `&b=${calc_score(polc,max_polc)}`
-            + `&m=${calc_cord()}`
             + `&c=${calc_score(wing,max_wing)}`
             + `&d=${calc_score(govt,max_govt)}`
             + `&e=${calc_score(vore,max_vore)}`
             + `&f=${calc_score(helf,max_helf)}`
             + `&g=${calc_score(smrt,max_smrt)}`
+            + `&m=${calc_cord()}`
     }
 </script>
 </body>
