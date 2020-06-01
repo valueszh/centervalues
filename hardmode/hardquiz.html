@@ -104,12 +104,12 @@ stats"></a></div></noscript>
         if (mult == 0.5 || mult == -0.5) {
           belf += 15;
         }
-        if ((mult == 0.25 || mult == -0.25) && questions[qn].effect.polc == 0) {
+        if ((mult == 0.25 || mult == -0.25) /*&& questions[qn].effect.polc == 0*/) {
           polc += 10;
         }
         qn++;
         prev_answer = mult;
-        prev_polc = questions[qn].effect.polc;
+        //prev_polc = questions[qn].effect.polc;
         if (qn < questions.length) {
             init_question();
         } else {
@@ -140,11 +140,11 @@ stats"></a></div></noscript>
         if (mult == 0.5 || mult == -0.5) {
           belf -= 15;
         }
-        if ((mult == 0.25 || mult == -0.25) && prev_polc == 0) {
+        if ((mult == 0.25 || mult == -0.25) /*&& prev_polc == 0*/) {
           polc -= 10;
         }
         prev_answer = null;
-        prev_polc = null;
+        //prev_polc = null;
         init_question();
 
     }
