@@ -128,19 +128,19 @@ stats"></a></div></noscript>
         vore -= prev_answer * questions[qn].effect.vore;
         helf -= prev_answer * questions[qn].effect.helf;
         smrt -= prev_answer * questions[qn].effect.smrt;
-        if (mult == 1.5 || mult == -1.5) {
+        if (prev_answer == 1.5 || prev_answer == -1.5) {
           belf += 15;
         }
-        if (mult == 1.25 || mult == -1.25) {
+        if (prev_answer == 1.25 || prev_answer == -1.25) {
           belf += 12.5;
         }
-        if (mult == 1 || mult == -1) {
+        if (prev_answer == 1 || prev_answer == -1) {
           belf -= 12.5;
         }
-        if (mult == 0.5 || mult == -0.5) {
+        if (prev_answer == 0.5 || prev_answer == -0.5) {
           belf -= 15;
         }
-        /*if ((mult == 0.25 || mult == -0.25) && prev_polc == 0) {
+        /*if ((prev_answer == 0.25 || prev_answer == -0.25) && prev_polc == 0) {
           polc -= 10;
         }*/
         prev_answer = null;
