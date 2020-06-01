@@ -1,0 +1,18 @@
+So i've had this stupid idea on adding a hardmode with extra axes, questions and new features. Things I want to add:
+
+- Left/Right, Auth/Lib leaning axes so that the Dead/Leaning axis would be calculated from them!
+
+- Vegan/Meat and Healthy/Junkfood axes. 'Cause grillin' and stuff, haha.
+
+- Smart/Strong axis with stolen questions from random iq tests.
+
+- Quick/Patient axis. I'd need to find a way to implement a timer for this one.
+
+- Steal extra buttons (I'd go further/This question angers me) from 8dreams. Also add Strongly (dis)agree buttons.
+
+- Remove questions for the Moderate/Radical axis and instead calculate it by ammount of Strongly (dis)agree and Slightly (dis)agree buttons pushed.
+
+- Either remove the Neutral/Unsure button or make it add points towards Apolitical on the Politic axes. The latter is funnier, but i think hardmode shouldn't have a centrist option.
+-- Oh, maybe split it into two buttons! Neutral would be like the lightest-weight of agrees, and Unsure would be the lightest-weight of disagrees! Both give extra points towards apolitical axis.
+
+That's it for now.
