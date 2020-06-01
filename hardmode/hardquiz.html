@@ -115,18 +115,6 @@ stats"></a></div></noscript>
         if (qn < questions.length) {
             init_question();
         } else {
-            var cord = -25;
-            if (100*(max_wing+wing)/(2*max_wing) < 50) {
-            cord += 50 - (100*(max_wing+wing)/(2*max_wing));
-            } else {
-            cord += (100*(max_wing+wing)/(2*max_wing)) - 50;
-            }
-            if (100*(max_govt+govt)/(2*max_govt) < 50) {
-            cord += 50 - (100*(max_govt+govt)/(2*max_govt));
-            } else {
-            cord += (100*(max_govt+govt)/(2*max_govt)) - 50;
-            }
-            cord = cord.toFixed(1);
             results();
         }
     }
@@ -165,12 +153,26 @@ stats"></a></div></noscript>
     function calc_score(score,max) {
         return (100*(max+score)/(2*max)).toFixed(1)
     }
+    function calc_cord(){
+            var cord = -25;
+            if (100*(max_wing+wing)/(2*max_wing) < 50) {
+            cord += 50 - (100*(max_wing+wing)/(2*max_wing));
+            } else {
+            cord += (100*(max_wing+wing)/(2*max_wing)) - 50;
+            }
+            if (100*(max_govt+govt)/(2*max_govt) < 50) {
+            cord += 50 - (100*(max_govt+govt)/(2*max_govt));
+            } else {
+            cord += (100*(max_govt+govt)/(2*max_govt)) - 50;
+            }
+            return cord.toFixed(1);
+    }
     function results() {
         location.href = `hardresults.html`
             + `?a=${calc_score(ther,max_ther)}`
             + `&l=${calc_score(belf,max_belf)}`
             + `&b=${calc_score(polc,max_polc)}`
-            + `&m=${cord}`
+            + `&m=${calc_cord}`
             + `&c=${calc_score(wing,max_wing)}`
             + `&d=${calc_score(govt,max_govt)}`
             + `&e=${calc_score(vore,max_vore)}`
