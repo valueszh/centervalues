@@ -60,7 +60,7 @@ stats"></a></div></noscript>
     ther = belf = polc = wing = govt = vore = helf = smrt = 0;
     var qn = 0; // Question number
     var prev_answer = null;
-    //var prev_polc = null;
+    var prev_polc = null;
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_ther += Math.abs(questions[i].effect.ther)
@@ -109,7 +109,7 @@ stats"></a></div></noscript>
         }*/
         qn++;
         prev_answer = mult;
-        //prev_polc = questions[qn].effect.polc;
+        prev_polc = questions[qn].effect.polc;
         if (qn < questions.length) {
             init_question();
         } else {
@@ -144,7 +144,7 @@ stats"></a></div></noscript>
           polc -= 10;
         }*/
         prev_answer = null;
-        //prev_polc = null;
+        prev_polc = null;
         init_question();
 
     }
