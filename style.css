@@ -162,22 +162,22 @@ div.radical {
 div.political {
     background-color: #47871c;
     text-align: left;
-    border-left-style: solid;
+    border-right-style: solid;
 }
 div.apolitical {
     background-color: #951631;
     text-align: right;
-    border-right-style: solid;
+    border-left-style: solid;
 }
 div.dead {
     background-color: #316151;
     text-align: left;
-    border-left-style: solid;
+    border-right-style: solid;
 }
 div.leaning {
     background-color: #147b98;
     text-align: right;
-    border-right-style: solid;
+    border-left-style: solid;
 }
 div.leftist {
     background-color: #89192b;
@@ -202,42 +202,42 @@ div.liberal {
 div.vegan {
     background-color: #169344;
     text-align: left;
-    border-left-style: solid;
+    border-right-style: solid;
 }
 div.meat {
     background-color: #7b232f;
     text-align: right;
-    border-right-style: solid;
+    border-left-style: solid;
 }
 div.healthy {
     background-color: #169567;
     text-align: left;
-    border-left-style: solid;
+    border-right-style: solid;
 }
 div.junk {
     background-color: #424242;
     text-align: right;
-    border-right-style: solid;
+    border-left-style: solid;
 }
 div.smart {
     background-color: #a3708d;
     text-align: left;
-    border-left-style: solid;
+    border-right-style: solid;
 }
 div.strong {
     background-color: #333161;
     text-align: right;
-    border-right-style: solid;
+    border-left-style: solid;
 }
 div.fast {
     background-color: #5e5932;
     text-align: left;
-    border-left-style: solid;
+    border-right-style: solid;
 }
 div.patient {
     background-color: #017dbb;
     text-align: right;
-    border-right-style: solid;
+    border-left-style: solid;
 }
 span.weight-300 {
     font-weight: 300;
