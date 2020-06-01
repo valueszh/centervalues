@@ -17,7 +17,7 @@ questions = [
             "ther": -10,
             "polc": 0,
             "wing": 0,
-            "govt": 0,
+            "govt": -5,
             "vore": 0,
             "helf": 0,
             "smrt": 0,
@@ -29,7 +29,7 @@ questions = [
             "ther": -10,
             "polc": 0,
             "wing": 0,
-            "govt": 0,
+            "govt": 5,
             "vore": 0,
             "helf": 0,
             "smrt": 0,
@@ -41,7 +41,7 @@ questions = [
             "ther": -10,
             "polc": 0,
             "wing": 0,
-            "govt": 0,
+            "govt": -5,
             "vore": 0,
             "helf": 0,
             "smrt": 0,
@@ -64,7 +64,7 @@ questions = [
         "effect": {
             "ther": -10,
             "polc": 0,
-            "wing": 0,
+            "wing": 5,
             "govt": 0,
             "vore": 0,
             "helf": 0,
@@ -76,7 +76,7 @@ questions = [
         "effect": {
             "ther": -10,
             "polc": 0,
-            "wing": 0,
+            "wing": -5,
             "govt": 0,
             "vore": 0,
             "helf": 0,
@@ -245,7 +245,235 @@ questions = [
             "ther": 0,
             "polc": 10,
             "wing": 0,
+            "govt": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Authoritarian goverment allows the ones in control to commit serious crimes against people's rights.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Abolishing authority would not solve any issues and might result in causing even more problems.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Saying that all races/cultures are the exact same is wrong.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
             "govt": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Thinking that racial/cultural background is the main factor in ones actions is wrong.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Righ-Wingers generally provide more logical and constructive arguments.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Left-Wingers are reasonable.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "The freer the markets, the freer the people.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "The freer the people, the freer the markets.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "White identarians are not racists.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Furries are not gay.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Communalism means robbery.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Social darwinism means murder.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Most herbivore animals are opportunistic carnivores.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "vore": -10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Animal cruelty is an issue that needs to be dealt with.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "vore": 10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Police doesn't need guns to protect people.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "I love my country/nation.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Most choices my country makes are very questionable.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "There is no morality without god.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "If god exists, he's either not omnipotent or not benevolent.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
             "vore": 0,
             "helf": 0,
             "smrt": 0,
