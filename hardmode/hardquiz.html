@@ -153,7 +153,7 @@ stats"></a></div></noscript>
     function calc_score(score,max) {
         return (100*(max+score)/(2*max)).toFixed(1)
     }
-    function calc_cord(score1,score2,max1,max2) {
+   /* function calc_cord(score1,score2,max1,max2) {
         var cord = -25;
         if (100*(max1+score1)/(2*max1) < 50) {
         cord += 50 - (100*(max1+score1)/(2*max1));
@@ -166,7 +166,7 @@ stats"></a></div></noscript>
         cord += (100*(max2+score2)/(2*max2)) - 50;
         }
         return cord.toFixed(1)
-    }
+    }*/
     function results() {
         location.href = `hardresults.html`
             + `?a=${calc_score(ther,max_ther)}`
