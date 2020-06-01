@@ -297,7 +297,7 @@ questions = [
         }
      },
       {
-        "question": "ONLY ONE of these is correct: Police don't need guns to protect people | Citizens don't need guns to protect themselves.",
+        "question": "ONLY ONE of these is correct: Police doesn't need guns to protect people | Citizens don't need guns to protect themselves.",
         "effect": {
             "ther": 0,
             "belf": 0,
