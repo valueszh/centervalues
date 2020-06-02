@@ -1,7 +1,7 @@
 So i've had this stupid idea on adding a hardmode with extra axes, questions and new features. Things I want to add:
 
 - Left/Right, Auth/Lib leaning axes so that the Dead/Leaning axis would be calculated from them!
--- Done! (fuk, the calculations dont work correctly)
+-- Done! (ooooh, maybe add anfash/capcom axis?)
 
 - Vegan/Meat and Healthy/Junkfood axes. 'Cause grillin' and stuff, haha.
 
