@@ -106,7 +106,7 @@ stats"></a></div></noscript>
         }
         prev_polc = questions[qn].effect.polc;
         if ((mult == 0.25 || mult == -0.25) && prev_polc == 0) {
-          polc += 10;
+          polc -= 10;
         }
         qn++;
         prev_answer = mult;
@@ -141,7 +141,7 @@ stats"></a></div></noscript>
           belf -= 15;
         }
         if ((prev_answer == 0.25 || prev_answer == -0.25) && prev_polc == 0) {
-          polc -= 10;
+          polc += 10;
         }
         prev_answer = null;
         prev_polc = null;
