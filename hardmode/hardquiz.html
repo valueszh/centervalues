@@ -53,11 +53,11 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_ther, max_belf, max_polc, max_wing, max_govt, max_vore, max_helf, max_smrt; // The vore is for carnivore or herbivore and not what you think
-    max_ther = max_polc = max_wing = max_govt = max_vore = max_helf = max_smrt = 0;
+    var max_ther, max_belf, max_polc, max_wing, max_govt, max_diag, max_vore, max_helf, max_smrt; // The vore is for carnivore or herbivore and not what you think
+    max_ther = max_polc = max_wing = max_govt = max_diag = max_vore = max_helf = max_smrt = 0;
     max_belf = 10*questions.length;
     var ther, belf, polc, wing, govt, vore, helf, smrt; // User's scores
-    ther = belf = polc = wing = govt = vore = helf = smrt = 0;
+    ther = belf = polc = wing = govt = diag = vore = helf = smrt = 0;
     var qn = 0; // Question number
     var prev_answer = null;
     var prev_polc = null;
@@ -67,6 +67,7 @@ stats"></a></div></noscript>
         max_polc += Math.abs(questions[i].effect.polc)
         max_wing += Math.abs(questions[i].effect.wing)
         max_govt += Math.abs(questions[i].effect.govt)
+        max_diag += Math.abs(questions[i].effect.diag)
         max_vore += Math.abs(questions[i].effect.vore)
         max_helf += Math.abs(questions[i].effect.helf)
         max_smrt += Math.abs(questions[i].effect.smrt)
@@ -89,6 +90,7 @@ stats"></a></div></noscript>
         polc += mult*questions[qn].effect.polc
         wing += mult*questions[qn].effect.wing
         govt += mult*questions[qn].effect.govt
+        diag += mult*questions[qn].effect.diag
         vore += mult*questions[qn].effect.vore
         helf += mult*questions[qn].effect.helf
         smrt += mult*questions[qn].effect.smrt
@@ -125,6 +127,7 @@ stats"></a></div></noscript>
         polc -= prev_answer * questions[qn].effect.polc;
         wing -= prev_answer * questions[qn].effect.wing;
         govt -= prev_answer * questions[qn].effect.govt;
+        diag -= prev_answer * questions[qn].effect.diag;
         vore -= prev_answer * questions[qn].effect.vore;
         helf -= prev_answer * questions[qn].effect.helf;
         smrt -= prev_answer * questions[qn].effect.smrt;
@@ -164,6 +167,13 @@ stats"></a></div></noscript>
             } else {
               cord += 12.5;
             }
+            if (100*(max_diag+diag)/(2*max_diag) < 50) {
+            cord -= 50 - (100*(max_diag+diag)/(2*max_diag));
+            } else if (100*(max_diag+diag)/(2*max_diag) > 50) {
+            cord -= 100*(max_diag+diag)/(2*max_diag) - 50;
+            } else {
+              cord += 12.5;
+            }
             return cord.toFixed(1)
     }
     function calc_score(score,max) {
@@ -177,6 +187,7 @@ stats"></a></div></noscript>
             + `&m=${calc_cord()}`
             + `&c=${calc_score(wing,max_wing)}`
             + `&d=${calc_score(govt,max_govt)}`
+            + `&o=${calc_score(diag,max_diag)}`
             + `&e=${calc_score(vore,max_vore)}`
             + `&f=${calc_score(helf,max_helf)}`
             + `&g=${calc_score(smrt,max_smrt)}`
