@@ -432,6 +432,18 @@ questions = [
         }
      },
     {
+        "question": "Citizens don't need guns to protect themselves.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
         "question": "I love my country/nation.",
         "effect": {
             "ther": 0,
