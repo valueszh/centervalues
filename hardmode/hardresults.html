@@ -47,7 +47,7 @@
 	    <div class="bar leaning" id="bar-leaning"><div class="text-wrapper" id="leaning"></div></div>
 	    <img id="img-leaning" src="../value-images/IconLean.png" height="128pt"/>
 	</div>
-  <h2>Wing Axis: <span class="weight-300" id="Wing-label"></span></h2>
+        <h2>Wing Axis: <span class="weight-300" id="Wing-label"></span></h2>
 	<div class="axis">
 	    <img id="img-leftist" src="../value-images/IconLeft.png" height="128pt"/>
 	    <div class="bar leftist" id="bar-leftist"><div class="text-wrapper" id="leftist"></div></div>
@@ -60,6 +60,13 @@
 	    <div class="bar statist" id="bar-statist"><div class="text-wrapper" id="statist"></div></div>
 	    <div class="bar liberal" id="bar-liberal"><div class="text-wrapper" id="liberal"></div></div>
 	    <img id="img-liberal" src="../value-images/IconDown.png" height="128pt"/>
+	</div>
+	<h2>Diagonal Axis: <span class="weight-300" id="Diagonal-label"></span></h2>
+	<div class="axis">
+	    <img id="img-anfash src="../value-images/IconAnfa.png" height="128pt"/>
+	    <div class="bar anfash" id="bar-anfash"><div class="text-wrapper" id="anfash"></div></div>
+	    <div class="bar capcom" id="bar-capcom"><div class="text-wrapper" id="capcom"></div></div>
+	    <img id="img-capcom" src="../value-images/IconCpcm.png" height="128pt"/>
 	</div>
   	<h2>Food Preference Axis: <span class="weight-300" id="Food-label"></span></h2>
 	<div class="axis">
@@ -137,12 +144,13 @@
 	    belfArray = ["Extreme Moderacy","Spineless","Anti-Radical","Cute","Overtonic","Semi-Radical","Radical","Every Extreme","Unreal"]
 	    polcArray = ["Based","Politician","Serious","Educated","Medium-rare","Unflaired","Apolitical","Griller","Post-political"]
 	    cordArray = ["Heavenly","Requiem","Dead","Balanced","The 0.5","Slightly Leaning","Edgy","Extremist","Off-compass"]
-      wingArray = ["Communalist","Sinistral","Communist","Socialist","Fucking guess","Conservative","Capitalist","Dextral","Darwinist"]
-      govtArray = ["Ingsoc","Totalitarian","Authoritarian","Upwards leaning","AuthLib","Downwards leaning","Minarchist","Anarchist","Egoist"]
-      voreArray = ["Photosynthesis","Vegan","Veganist","Veggie-lover","Omnivore","Hot Dogs","Meat-Eater","Raw Meat-Eater","Cannibal"]
-      helfArray = ["Superhuman","Very Healthy","Healthy","Almost Healthy","Slightly Unhealthy","Unhealthy","Very Unhealthy","Diseased","Walking Corpse"]
-      smrtArray = ["Megamind","Understands Rick&Morty","Very Smart","Smart","Basic","Athletic","Strong","Bodybuilder","Titan"]
-      spedArray = ["Accelerationist","Superspeed","Fast","Normal Speed","Slow","Lazy","Frozen","Petrified","Moves Backwards In Time"]
+            wingArray = ["Communalist","Sinistral","Communist","Socialist","Fucking guess","Conservative","Capitalist","Dextral","Darwinist"]
+            govtArray = ["Ingsoc","Totalitarian","Authoritarian","Upwards leaning","AuthLib","Downwards leaning","Minarchist","Anarchist","Egoist"]
+            diagArray = ["Tumblrist","Anfash Gang","Anarcho-Monarchist","Democrat","Undiagonal","Philantropist","Chinese Communist","Capcom Gang","Hive-Mind Avaritionist"]
+            voreArray = ["Photosynthesis","Vegan","Veganist","Veggie-lover","Omnivore","Hot Dogs","Meat-Eater","Raw Meat-Eater","Cannibal"]
+            helfArray = ["Superhuman","Very Healthy","Healthy","Almost Healthy","Slightly Unhealthy","Unhealthy","Very Unhealthy","Diseased","Walking Corpse"]
+            smrtArray = ["Megamind","Understands Rick&Morty","Very Smart","Smart","Basic","Athletic","Strong","Bodybuilder","Titan"]
+            spedArray = ["Accelerationist","Superspeed","Fast","Normal Speed","Slow","Lazy","Frozen","Petrified","Stopped Thinking"]
 	
 	    function setLabel(val,ary) {
 	        if (val > 100) { return ary[0] } else
@@ -160,21 +168,23 @@
 	    moderate     = getQueryVariable("l")
 	    political   = getQueryVariable("b")
 	    dead  = getQueryVariable("m")
-      leftist  = getQueryVariable("c")
+            leftist  = getQueryVariable("c")
 	    statist     = getQueryVariable("d")
+	    anfash  = getQueryVariable("o")
 	    vegan   = getQueryVariable("e")
 	    healthy  = getQueryVariable("f")
-      smart   = getQueryVariable("g")
+            smart   = getQueryVariable("g")
 	    fast  = getQueryVariable("n")
 	    horseshoe    = (100 - axes).toFixed(1)
 	    radical  = (100 - moderate).toFixed(1)
 	    apolitical = (100 - political).toFixed(1)
 	    leaning = (100 - dead).toFixed(1)
-      rightist    = (100 - leftist).toFixed(1)
+            rightist    = (100 - leftist).toFixed(1)
 	    liberal  = (100 - statist).toFixed(1)
+	    capcom  = (100 - anfash).toFixed(1)
 	    meat = (100 - vegan).toFixed(1)
 	    junk = (100 - healthy).toFixed(1)
-      strong = (100 - smart).toFixed(1)
+            strong = (100 - smart).toFixed(1)
 	    patient = (100 - fast).toFixed(1)
 	
 	    setBarValue("axes", axes)
@@ -185,15 +195,17 @@
 	    setBarValue("apolitical", apolitical)
 	    setBarValue("leaning", leaning)
 	    setBarValue("dead", dead)
-      setBarValue("leftist", leftist)
+            setBarValue("leftist", leftist)
 	    setBarValue("rightist", rightist)
 	    setBarValue("statist", statist)
 	    setBarValue("liberal", liberal)
+	    setBarValue("anfash", anfash)
+	    setBarValue("capcom", capcom)
 	    setBarValue("vegan", vegan)
 	    setBarValue("meat", meat)
 	    setBarValue("healthy", healthy)
 	    setBarValue("junk", junk)
-      setBarValue("smart", smart)
+            setBarValue("smart", smart)
 	    setBarValue("strong", strong)
 	    setBarValue("fast", fast)
 	    setBarValue("patient", patient)
@@ -202,11 +214,12 @@
 	    document.getElementById("Beliefal-label").innerHTML = setLabel(moderate, belfArray)
 	    document.getElementById("Politic-label").innerHTML = setLabel(political, polcArray)
 	    document.getElementById("Coordinatic-label").innerHTML = setLabel(dead, cordArray)
-      document.getElementById("Wing-label").innerHTML = setLabel(leftist, wingArray)
+            document.getElementById("Wing-label").innerHTML = setLabel(leftist, wingArray)
 	    document.getElementById("Govermental-label").innerHTML = setLabel(statist, govtArray)
+	    document.getElementById("Govermental-label").innerHTML = setLabel(anfash, diagArray)
 	    document.getElementById("Food-label").innerHTML = setLabel(vegan, voreArray)
 	    document.getElementById("Healthiness-label").innerHTML = setLabel(healthy, helfArray)
-      document.getElementById("Smartness-label").innerHTML = setLabel(smart, smrtArray)
+   	    document.getElementById("Smartness-label").innerHTML = setLabel(smart, smrtArray)
 	    document.getElementById("Speed-label").innerHTML = setLabel(fast, spedArray)
 	
 	    ideology = ""
@@ -236,9 +249,9 @@
 	        var c = document.createElement("canvas")
 	        var ctx = c.getContext("2d")
 	        c.width = 800;
-	        c.height = 1370;
+	        c.height = 1490;
 	        ctx.fillStyle = "#EEEEEE"
-	        ctx.fillRect(0,0,800,1370);
+	        ctx.fillRect(0,0,800,1490);
 	
 	        img = document.getElementById("img-axes")
 	        ctx.drawImage(img, 20, 170, 100, 100);
@@ -264,22 +277,26 @@
 	        ctx.drawImage(img, 20, 770, 100, 100)
 	        img = document.getElementById("img-liberal")
 	        ctx.drawImage(img, 680, 770, 100, 100)
-	        img = document.getElementById("img-vegan")
-	        ctx.drawImage(img, 20, 890, 100, 100)
-	        img = document.getElementById("img-meat")
+		img = document.getElementById("img-anfash")
 	        ctx.drawImage(img, 680, 890, 100, 100)
-	        img = document.getElementById("img-healthy")
+		img = document.getElementById("img-capcom")
+	        ctx.drawImage(img, 680, 890, 100, 100)
+	        img = document.getElementById("img-vegan")
 	        ctx.drawImage(img, 20, 1010, 100, 100)
-	        img = document.getElementById("img-junk")
+	        img = document.getElementById("img-meat")
 	        ctx.drawImage(img, 680, 1010, 100, 100)
-                img = document.getElementById("img-smart")
+	        img = document.getElementById("img-healthy")
 	        ctx.drawImage(img, 20, 1130, 100, 100)
-	        img = document.getElementById("img-strong")
+	        img = document.getElementById("img-junk")
 	        ctx.drawImage(img, 680, 1130, 100, 100)
-	        img = document.getElementById("img-fast")
+                img = document.getElementById("img-smart")
 	        ctx.drawImage(img, 20, 1250, 100, 100)
-	        img = document.getElementById("img-slow")
+	        img = document.getElementById("img-strong")
 	        ctx.drawImage(img, 680, 1250, 100, 100)
+	        img = document.getElementById("img-fast")
+	        ctx.drawImage(img, 20, 1370, 100, 100)
+	        img = document.getElementById("img-slow")
+	        ctx.drawImage(img, 680, 1370, 100, 100)
 	
 	        ctx.fillStyle="#222222"
 	        ctx.fillRect(120, 180, 560, 80)
@@ -292,6 +309,7 @@
 	        ctx.fillRect(120, 1020, 560, 80)
                 ctx.fillRect(120, 1140, 560, 80)
 	        ctx.fillRect(120, 1260, 560, 80)
+		ctx.fillRect(120, 1380, 560, 80)
 	        ctx.fillStyle="#264677"
 	        ctx.fillRect(120, 184, 5.6*axes-2, 72)
 	        ctx.fillStyle="#777626"
@@ -309,29 +327,33 @@
 	        ctx.fillStyle="#147b98"
 	        ctx.fillRect(682-5.6*leaning, 544, 5.6*leaning-2, 72)
                 ctx.fillStyle="#89192b"
-	        ctx.fillRect(120, 184, 5.6*leftist-2, 72)
+	        ctx.fillRect(120, 664, 5.6*leftist-2, 72)
 	        ctx.fillStyle="#6e7427"
-	        ctx.fillRect(682-5.6*rightist, 184, 5.6*rightist-2, 72)
+	        ctx.fillRect(682-5.6*rightist, 664, 5.6*rightist-2, 72)
 	        ctx.fillStyle="#264677"
-	        ctx.fillRect(120, 304, 5.6*statist-2, 72)
+	        ctx.fillRect(120, 784, 5.6*statist-2, 72)
 	        ctx.fillStyle="#267752"
-	        ctx.fillRect(682-5.6*liberal, 304, 5.6*liberal-2, 72)
+	        ctx.fillRect(682-5.6*liberal, 784, 5.6*liberal-2, 72)
+		ctx.fillStyle="#265277"
+	        ctx.fillRect(120, 904, 5.6*anfash-2, 72)
+	        ctx.fillStyle="#852132"
+	        ctx.fillRect(682-5.6*capcom, 904, 5.6*capcom-2, 72)
 	        ctx.fillStyle="#169344"
-	        ctx.fillRect(120, 424, 5.6*vegan-2, 72)
+	        ctx.fillRect(120, 1024, 5.6*vegan-2, 72)
 	        ctx.fillStyle="#7b232f"
-	        ctx.fillRect(682-5.6*meat, 424, 5.6*meat-2, 72)
+	        ctx.fillRect(682-5.6*meat, 1024, 5.6*meat-2, 72)
 	        ctx.fillStyle="#169567"
-	        ctx.fillRect(120, 544, 5.6*healthy-2, 72)
+	        ctx.fillRect(120, 1144, 5.6*healthy-2, 72)
 	        ctx.fillStyle="#424242"
-	        ctx.fillRect(682-5.6*junk, 544, 5.6*junk-2, 72)
+	        ctx.fillRect(682-5.6*junk, 1144, 5.6*junk-2, 72)
                 ctx.fillStyle="#a3708d"
-	        ctx.fillRect(120, 424, 5.6*smart-2, 72)
+	        ctx.fillRect(120, 1264, 5.6*smart-2, 72)
 	        ctx.fillStyle="#333161"
-	        ctx.fillRect(682-5.6*strong, 424, 5.6*strong-2, 72)
+	        ctx.fillRect(682-5.6*strong, 1264, 5.6*strong-2, 72)
 	        ctx.fillStyle="#5e5932"
-	        ctx.fillRect(120, 544, 5.6*fast-2, 72)
+	        ctx.fillRect(120, 1384, 5.6*fast-2, 72)
 	        ctx.fillStyle="#017dbb"
-	        ctx.fillRect(682-5.6*patient, 544, 5.6*patient-2, 72)
+	        ctx.fillRect(682-5.6*patient, 1384, 5.6*patient-2, 72)
 	        ctx.fillStyle="#222222"
 	        ctx.font="700 80px Montserrat"
 	        ctx.textAlign="left"
@@ -344,38 +366,41 @@
 	        if (moderate    > 30) {ctx.fillText(moderate + "%", 130, 357.5)}
 	        if (political   > 30) {ctx.fillText(political + "%", 130, 477.5)}
 	        if (dead > 30) {ctx.fillText(dead + "%", 130, 597.5)}
-          if (leftist  > 30) {ctx.fillText(leftist + "%", 130, 717.5)}
+                if (leftist  > 30) {ctx.fillText(leftist + "%", 130, 717.5)}
 	        if (statist  > 30) {ctx.fillText(statist + "%", 130, 837.5)}
-	        if (vegan   > 30) {ctx.fillText(vegan + "%", 130, 957.5)}
-	        if (healthy > 30) {ctx.fillText(healthy + "%", 130, 1077.5)}
-          if (smart   > 30) {ctx.fillText(smart + "%", 130, 1197.5)}
-	        if (fast > 30) {ctx.fillText(fast + "%", 130, 1317.5)}
+		if (anfash  > 30) {ctx.fillText(anfash + "%", 130, 957.5)}
+	        if (vegan   > 30) {ctx.fillText(vegan + "%", 130, 1077.5)}
+	        if (healthy > 30) {ctx.fillText(healthy + "%", 130, 1197.5)}
+                if (smart   > 30) {ctx.fillText(smart + "%", 130, 1317.5)}
+	        if (fast > 30) {ctx.fillText(fast + "%", 130, 1437.5)}
 	        ctx.textAlign="right"
 	        if (horseshoe  > 30) {ctx.fillText(horseshoe + "%", 670, 237.5)}
 	        if (radical    > 30) {ctx.fillText(radical + "%", 670, 357.5)}
 	        if (apolitical > 30) {ctx.fillText(apolitical + "%", 670, 477.5)}
 	        if (leaning  > 30) {ctx.fillText(leaning + "%", 670, 597.5)}
-          if (rightist  > 30) {ctx.fillText(rightist + "%", 670, 717.5)}
+                if (rightist  > 30) {ctx.fillText(rightist + "%", 670, 717.5)}
 	        if (liberal   > 30) {ctx.fillText(liberal + "%", 670, 837.5)}
-	        if (meat   > 30) {ctx.fillText(meat + "%", 670, 957.5)}
-	        if (junk   > 30) {ctx.fillText(junk + "%", 670, 1077.5)}
-          if (strong  > 30) {ctx.fillText(strong + "%", 670, 1197.5)}
-	        if (patient > 30) {ctx.fillText(patient + "%", 670, 1317.5)}
+		if (capcom  > 30) {ctx.fillText(capcom + "%", 130, 957.5)}
+	        if (meat   > 30) {ctx.fillText(meat + "%", 670, 1077.5)}
+	        if (junk   > 30) {ctx.fillText(junk + "%", 670, 1197.5)}
+                if (strong  > 30) {ctx.fillText(strong + "%", 670, 1317.5)}
+	        if (patient > 30) {ctx.fillText(patient + "%", 670, 1437.5)}
 	
 	        ctx.font="300 30px Montserrat"
 	        ctx.fillText("centervalues.github.io", 780, 60)
-          ctx.fillText("Hardmode", 780, 90)
+                ctx.fillText("Hardmode", 780, 90)
 	        ctx.textAlign="center"
 	        ctx.fillText("Theoretic Axis: " + document.getElementById("Theoretic-label").innerHTML, 400, 175)
 	        ctx.fillText("Beliefal Axis: " + document.getElementById("Beliefal-label").innerHTML, 400, 295)
 	        ctx.fillText("Politic Axis: " + document.getElementById("Politic-label").innerHTML, 400, 415)
 	        ctx.fillText("Coordinatic Axis: " + document.getElementById("Coordinatic-label").innerHTML, 400, 535)
-          ctx.fillText("Wing Axis: " + document.getElementById("Wing-label").innerHTML, 400, 655)
+ 	        ctx.fillText("Wing Axis: " + document.getElementById("Wing-label").innerHTML, 400, 655)
 	        ctx.fillText("Govermental Axis: " + document.getElementById("Govermental-label").innerHTML, 400, 775)
-	        ctx.fillText("Food Preference Axis: " + document.getElementById("Food-label").innerHTML, 400, 895)
-	        ctx.fillText("Healthiness Axis: " + document.getElementById("Healthiness-label").innerHTML, 400, 1015)
-          ctx.fillText("Smartness Axis: " + document.getElementById("Smartness-label").innerHTML, 400, 1135)
-	        ctx.fillText("Speed Axis: " + document.getElementById("Speed-label").innerHTML, 400, 1255)
+		ctx.fillText("Diagonal Axis: " + document.getElementById("Diagonal-label").innerHTML, 400, 895)
+	        ctx.fillText("Food Preference Axis: " + document.getElementById("Food-label").innerHTML, 400, 1015)
+	        ctx.fillText("Healthiness Axis: " + document.getElementById("Healthiness-label").innerHTML, 400, 1135)
+    	    	ctx.fillText("Smartness Axis: " + document.getElementById("Smartness-label").innerHTML, 400, 1255)
+	        ctx.fillText("Speed Axis: " + document.getElementById("Speed-label").innerHTML, 400, 1375)
 	
 	        document.getElementById("banner").src = c.toDataURL();
 	    }
