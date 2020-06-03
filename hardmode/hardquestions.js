@@ -649,4 +649,264 @@ questions = [
             "smrt": 0,
         }
      },
+    {
+        "question": "It's impossible to deny the tastiness of meat.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": -10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+        {
+        "question": "Anything with lower intelligence than human should be eaten.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": -10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Pigs' intelligence can rival that of a human.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+      {
+        "question": "Humans are not meant to be herbivores. It's biology 101.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": -10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+      {
+        "question": "Raw meat is a healthy food.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": -10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Raw veggies are a healthy food.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Hamburgers are a healthy food.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": -10,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+      {
+        "question": "Replace goverment with McDonalds.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "I'd choose Candy over Meat.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 10,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Fridge is not safe during the night.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Consumerism is bad.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Drugs should be legalized.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Only a stupid person would think they're smart.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 10,
+        }
+     },
+    {
+        "question": "There are 6 types of logic gates: NOT, AND, OR, NAND, NOR, XAND, XOR.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": -10,
+        }
+     },
+    {
+        "question": "The 100-year war lasted 106 years.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": -10,
+        }
+     },
+      {
+        "question": "This sentence is wrong.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "The Holocaust didn't happen.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Some cells don't have mitochondria.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 10,
+        }
+     },
+     {
+        "question": "(a+b)*2 = (2a+b)(a+ab+b)(a+2b)",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": -10,
+        }
+     },
+     {
+        "question": "Whoever thinks this test is accurate is braindead.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 10,
+        }
+     },
 ];
