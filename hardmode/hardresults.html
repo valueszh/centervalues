@@ -270,9 +270,13 @@
 	        img = document.getElementById("img-leaning")
 	        ctx.drawImage(img, 680, 530, 100, 100)
 		img = document.getElementById("img-leftist")
-	        ctx.drawImage(img, 20, 650, 100, 100);
+	        ctx.drawImage(img, 20, 650, 100, 100)
 	        img = document.getElementById("img-rightist")
 	        ctx.drawImage(img, 680, 650, 100, 100)
+		img = document.getElementById("img-statist")
+	        ctx.drawImage(img, 20, 770, 100, 100)
+	        img = document.getElementById("img-liberal")
+	        ctx.drawImage(img, 680, 770, 100, 100)
 	
 	        ctx.fillStyle="#222222"
 	        ctx.fillRect(120, 180, 560, 80)
@@ -280,6 +284,7 @@
 	        ctx.fillRect(120, 420, 560, 80)
 	        ctx.fillRect(120, 540, 560, 80)
 		ctx.fillRect(120, 660, 560, 80)
+		ctx.fillRect(120, 780, 560, 80)
 	        ctx.fillStyle="#264677"
 	        ctx.fillRect(120, 184, 5.6*axes-2, 72)
 	        ctx.fillStyle="#777626"
@@ -300,6 +305,10 @@
 	        ctx.fillRect(120, 664, 5.6*leftist-2, 72)
 	        ctx.fillStyle="#6e7427"
 	        ctx.fillRect(682-5.6*rightist, 664, 5.6*rightist-2, 72)
+		ctx.fillStyle="#264677"
+	        ctx.fillRect(120, 784, 5.6*statist-2, 72)
+	        ctx.fillStyle="#267752"
+	        ctx.fillRect(682-5.6*liberal, 784, 5.6*liberal-2, 72)
 	        ctx.fillStyle="#222222"
 	        ctx.font="700 80px Montserrat"
 	        ctx.textAlign="left"
@@ -313,12 +322,14 @@
 	        if (political   > 30) {ctx.fillText(political + "%", 130, 477.5)}
 	        if (dead > 30) {ctx.fillText(dead + "%", 130, 597.5)}
 		if (leftist  > 30) {ctx.fillText(leftist + "%", 130, 717.5)}
+		if (statist  > 30) {ctx.fillText(statist + "%", 130, 837.5)}
 	        ctx.textAlign="right"
 	        if (horseshoe    > 30) {ctx.fillText(horseshoe + "%", 670, 237.5)}
 	        if (radical     > 30) {ctx.fillText(radical + "%", 670, 357.5)}
 	        if (apolitical > 30) {ctx.fillText(apolitical + "%", 670, 477.5)}
 	        if (leaning  > 30) {ctx.fillText(leaning + "%", 670, 597.5)}
 		if (rightist  > 30) {ctx.fillText(rightist + "%", 670, 717.5)}
+		if (liberal   > 30) {ctx.fillText(liberal + "%", 670, 837.5)}
 	
 	        ctx.font="300 30px Montserrat"
 	        ctx.fillText("centervalues.github.io", 780, 60)
@@ -329,6 +340,7 @@
 	        ctx.fillText("Politic Axis: " + document.getElementById("Politic-label").innerHTML, 400, 415)
 	        ctx.fillText("Coordinatic Axis: " + document.getElementById("Coordinatic-label").innerHTML, 400, 535)
 		ctx.fillText("Wing Axis: " + document.getElementById("Wing-label").innerHTML, 400, 655)
+		ctx.fillText("Govermental Axis: " + document.getElementById("Govermental-label").innerHTML, 400, 775)
 	
 	        document.getElementById("banner").src = c.toDataURL();
 	    }
