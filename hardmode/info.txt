@@ -4,8 +4,10 @@ So i've had this stupid idea on adding a hardmode with extra axes, questions and
 -- Done! (ooooh, maybe add anfash/capcom axis?)
 
 - Vegan/Meat and Healthy/Junkfood axes. 'Cause grillin' and stuff, haha.
+-- Done!
 
 - Smart/Strong axis with stolen questions from random iq tests.
+-- Done! Decided to go with trivia questions.
 
 - Quick/Patient axis. I'd need to find a way to implement a timer for this one.
 
