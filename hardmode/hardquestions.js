@@ -909,4 +909,888 @@ questions = [
             "smrt": 10,
         }
      },
+    {
+        "question": "Looking at flowers brings joy.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Gaymers are superrior to normies.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "There is no god but man.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "There is no difference between a capitalist and a pig.",
+        "effect": {
+            "ther": -10,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "diag": 0,
+            "vore": -10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Cannibalism should be legalized under some circumstances.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 10,
+            "vore": -10,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "All govermental buildings should be made out of glass (or other transparent material).",
+        "effect": {
+            "ther": 0,
+            "polc": 10,
+            "wing": 0,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "All privatly-owned buildings or corporations should be made out of glass (or other transparent material).",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "It is ok for goverment to install security cameras in public bathrooms.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Security cameras should be installed everywhere. Not being watched by a camera should be punishable by death.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "State should force happiness-inducing substances onto its citizens.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Eugenics is a good idea: after all, selective breeding of plants and animals did create superior species.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Animals should have equal rights with humans.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 10,
+            "vore": 10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Androids should have equal rights with humans.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Plants and fungi should have equal rights with humans.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Inanimate objects (such as weapons and tools) should have equal rights with humans.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": -10,
+            "diag": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Pedophiles/Ephebophiles should be given the same rights as LGBTQ individuals.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "All property should be publicly owned; therefore, theft is not a crime.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Human bodies should be publicly owned; therefore, murder and rape are not crimes.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Survival of the fittest is applicable to human society; therefore, theft, murder and rape are not crimes.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -20,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Weather should not be regulated by the goverment, it should be controlled by private companies instead.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Companies should be allowed to use future-predicting magic with no regulation.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Usage of non-utility magic by civillians should be banned.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Elves, centaurs, fairies, dwarves, etc. should be given affirmative action.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Species like orcs or goblins are inherently evil: even a few outliers wouldn't change this fact.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Our planet needs an energy barrier to protect it from extraterrestial intruders.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Trade with aliens is a good way to better the economy worldwide.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "The SCP foundation should be abolished, along with any other institutions made to hide truth from the common folk.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": -10,
+            "diag": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "The need to flair up is an unjust hierarchy.",
+        "effect": {
+            "ther": 0,
+            "polc": -10,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Clockwise-wing is generally more eldritch than counterclockwise-wing.",
+        "effect": {
+            "ther": 10,
+            "polc": 10,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Language is a tool for population control: newspeak is a good idea.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Language is a social construct: there's nothing wrong with slang.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Language is a social construct: there's nothing wrong with slurs.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "A good way to enforce safety on people is locking them in small-sized rooms with soft walls.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Hell should be focused on cleansing souls from sin instead of eternally punishing them.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Old religious books are outdated and should be rewritten according to modern day moral and social norms.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "diag": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "God and Devil should be elected via democratic voting.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "We should go back to medieval ages.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 10,
+            "vore": 0,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Stat-boosting potions should be banned from use in sports.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Species-reassignment surgeries should be banned.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Time-travel messes with history, and therefore should be banned.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Meat from alien species is not much different from meat of Earth animals, so it is suitable for human consumption.",
+        "effect": {
+            "ther": -10,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": -10,
+            "helf": -10,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "There is nothing wrong with slavery.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Freedom of speech applies to usage of incantations too.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Goverment should be allowed to read and record thoughts of all of its citizens.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "If a crime is justifiable with ones religious views, it is not a crime.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Witch hunting is a legitimate profession.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Priests of any religion should be elected by the god(s) of said religion.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Air-breathing tax and weather tax should be installed.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Having phobias should be legally punished.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Laws should not apply to govermental figures, military, police and church.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Animals have no such concept as rape, so consent for intercourse is not needed.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": -10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Animals can consent, show affection and love even if the line seems too blurry for goverment.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 10,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Laws against molestation of inanimate objects should be installed.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "It is impossible for a single person to be a victim of more than one crime at the same time, since a second crime does not change the persons victim status.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": -10,
+        }
+     },
+    {
+        "question": "Human rights should be bought from free market, instead of being granted universally.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Taxes should only be paid by those who are interested in the services provided.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Current education system is a major waste of time/resources and should be abolished. Students should be able to download information directly to their brain instead.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Parents should have the right to throw away (or sell) their children if they want.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Parents should be able to abuse or neglect their children without fear of goverment intervention.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 0,
+            "govt": -10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Murder should be renamed to Involuntary Assisted Suicide.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Utopia is only achievable in fiction.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "There are only two genders: Male and Female.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "There are only two names: John and Mary.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Ideally, there should only be two humans on the planet at a time: one male, the other female.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Public indecency should be banned.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 10,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Ecology is more important than human rights.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": 10,
+            "govt": 0,
+            "diag": 10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Economy is more important than human rights.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": -10,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
+    {
+        "question": "Technology progresses the fastest during a time of war.",
+        "effect": {
+            "ther": 0,
+            "polc": 0,
+            "wing": -10,
+            "govt": 0,
+            "diag": 0,
+            "vore": 0,
+            "helf": 0,
+            "smrt": 0,
+        }
+     },
 ];
