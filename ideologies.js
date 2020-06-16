@@ -440,4 +440,94 @@ ideologies = [
             "cord": 100
         }
     },
+    {
+        "name": "Politicophobe",
+        "stats": {
+            "ther": 25,
+            "belf": 75,
+            "polc": 0,
+            "cord": 75
+        }
+    },
+    {
+        "name": "Status Quo Upholder",
+        "stats": {
+            "ther": 75,
+            "belf": 75,
+            "polc": 50,
+            "cord": 50
+        }
+    },
+    {
+        "name": "Blind Follower",
+        "stats": {
+            "ther": 80,
+            "belf": 100,
+            "polc": 25,
+            "cord": 40
+        }
+    },
+    {
+        "name": "Average Non-voter",
+        "stats": {
+            "ther": 20,
+            "belf": 80,
+            "polc": 20,
+            "cord": 80
+        }
+    },
+    {
+        "name": "Thanosism",
+        "stats": {
+            "ther": 50,
+            "belf": 0,
+            "polc": 40,
+            "cord": 20
+        }
+    },
+    {
+        "name": "Peacemaker",
+        "stats": {
+            "ther": 75,
+            "belf": 100,
+            "polc": 30,
+            "cord": 80
+        }
+    },
+    {
+        "name": "Optimistic Centrism",
+        "stats": {
+            "ther": 75,
+            "belf": 100,
+            "polc": 0,
+            "cord": 100
+        }
+    },
+    {
+        "name": "Political Doomer",
+        "stats": {
+            "ther": 50,
+            "belf": 50,
+            "polc": 25,
+            "cord": 40
+        }
+    },
+    {
+        "name": "Uninformed Centrism",
+        "stats": {
+            "ther": 25,
+            "belf": 50,
+            "polc": 40,
+            "cord": 80
+        }
+    },
+    {
+        "name": "British Voter",
+        "stats": {
+            "ther": 60,
+            "belf": 50,
+            "polc": 70,
+            "cord": 75
+        }
+    },
 ];
