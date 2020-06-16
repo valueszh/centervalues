@@ -522,7 +522,7 @@ ideologies = [
         }
     },
     {
-        "name": "British Voter",
+        "name": "UK Voter",
         "stats": {
             "ther": 60,
             "belf": 50,
