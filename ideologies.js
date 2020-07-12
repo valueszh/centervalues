@@ -530,4 +530,13 @@ ideologies = [
             "cord": 75
         }
     },
+    {
+        "name": "Inoffensive Centrist Democracy",
+        "stats": {
+            "ther": 75,
+            "belf": 100,
+            "polc": 50,
+            "cord": 75
+        }
+    },
 ];
