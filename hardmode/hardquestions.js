@@ -988,7 +988,7 @@ questions = [
         }
      },
     {
-        "question": "All privatly-owned buildings or corporations should be made out of glass (or other transparent material).",
+        "question": "All privately-owned buildings or corporations should be made out of glass (or other transparent material).",
         "effect": {
             "ther": 0,
             "polc": 0,
