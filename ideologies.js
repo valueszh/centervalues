@@ -539,4 +539,13 @@ ideologies = [
             "cord": 75
         }
     },
+    {
+        "name": "Someone with opinions",
+        "stats": {
+            "ther": 70,
+            "belf": 35,
+            "polc": 60,
+            "cord": 75
+        }
+    },
 ];
