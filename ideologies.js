@@ -548,4 +548,22 @@ ideologies = [
             "cord": 75
         }
     },
+    {
+        "name": "Neocentrism",
+        "stats": {
+            "ther": 0,
+            "belf": 100,
+            "polc": 0,
+            "cord": 0
+        }
+    },
+    {
+        "name": "Post-centrism",
+        "stats": {
+            "ther": 50,
+            "belf": 0,
+            "polc": 0,
+            "cord": 0
+        }
+    },
 ];
