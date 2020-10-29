@@ -584,4 +584,13 @@ ideologies = [
             "cord": 100
         }
     },
+        {
+        "name": "Political Cartographer",
+        "stats": {
+            "ther": 30,
+            "belf": 40,
+            "polc": 75,
+            "cord": 50
+        }
+    },
 ];
