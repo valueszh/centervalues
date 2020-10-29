@@ -593,4 +593,13 @@ ideologies = [
             "cord": 50
         }
     },
+    {
+        "name": "Neo-Metacentrism",
+        "stats": {
+            "ther": 40,
+            "belf": 40,
+            "polc": 60,
+            "cord": 35
+        }
+    },
 ];
