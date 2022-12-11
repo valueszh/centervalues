@@ -1,2 +1,2 @@
 # centervalues
-A parody test that is not meant to be taken seriously.
+这是一个模仿性的测试，请不要认真对待它。 
