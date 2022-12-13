@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Giving lots of power to megacorporations is not much different from giving same ammount of power to the goverment.",
+        "question": "给予大公司大量权力与给予政府同样的权力没什么不同。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -13,7 +13,7 @@ questions = [
         }
     },
         {
-        "question": "Nazis and communists are basically the same.",
+        "question": "纳粹主义者和共产主义者基本一致。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -26,7 +26,7 @@ questions = [
         }
     },
             {
-        "question": "Anarcho-(insert_random_ideology_name) is the same as any other type of anarchism.",
+        "question": "任何形式的无政府主义都和其他无政府主义没有差别。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -39,7 +39,7 @@ questions = [
         }
     },
             {
-        "question": "Totalitarian regimes = literally 1984, no matter the policies.",
+        "question": "无论极权主义政权实施了什么政策，它们都完全等同于1984。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -52,7 +52,7 @@ questions = [
         }
     },
             {
-        "question": "Anti-fascist and social justice movements are as biggoted as those whom they oppose.",
+        "question": "反法西斯和社会正义运动的参与者与他们所反对的人一样偏执。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -65,7 +65,7 @@ questions = [
         }
     },
             {
-        "question": "Everyone far-right is a nazi.",
+        "question": "所有极右都是纳粹。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -78,7 +78,7 @@ questions = [
         }
     },
             {
-        "question": "Everyone far-left is a stalinist.",
+        "question": "所有极左都是斯大林主义者。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -91,7 +91,7 @@ questions = [
         }
     },
             {
-        "question": "All libs are leftists.",
+        "question": "所有自由派都是左派。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -104,7 +104,7 @@ questions = [
         }
     },
             {
-        "question": "Theists and atheists are equally vocal and annoying.",
+        "question": "有神论者和无神论者的声音同样响亮而令人讨厌。",
         "effect": {
             "ther": -10,
             "polc": 0,
