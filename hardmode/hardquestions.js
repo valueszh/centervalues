@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "I would not participate in any kind of protest.",
+        "question": "我不会参与任何形式的抗议。",
         "effect": {
             "ther": 0,
             "polc": -10,
@@ -130,7 +130,7 @@ questions = [
         }
     },
                {
-        "question": "Serious political media does not interest me.",
+        "question": "我对严肃的政治媒体不感兴趣。",
         "effect": {
             "ther": 0,
             "polc": -10,
@@ -143,7 +143,7 @@ questions = [
         }
     },
                    {
-        "question": "I do not want to vote on any political candidate/party.",
+        "question": "我不想给任何政治候选人或政党投票。",
         "effect": {
             "ther": 0,
             "polc": -10,
@@ -156,7 +156,7 @@ questions = [
         }
     },
                    {
-        "question": "I know the name of the president, prime minister, chancellor and multiple other politicians of my country.",
+        "question": "我知道我国的国家主席、总统、总理、大法官和其他政治人物（如果有的话）的姓名",
         "effect": {
             "ther": 0,
             "polc": 10,
@@ -169,7 +169,7 @@ questions = [
         }
     },
   {
-        "question": "I have never learned history/Forgot most of it.",
+        "question": "我从来没有学过历史，或者忘掉了它的大部分。",
         "effect": {
             "ther": 0,
             "polc": -10,
@@ -182,7 +182,7 @@ questions = [
         }
     },
  {
-        "question": "My knowledge of politics mostly comes from internet memes and/or satirical media.",
+        "question": "我对政治的了解大多来自互联网模因和/或讽刺媒体。",
         "effect": {
             "ther": 0,
             "polc": -10,
@@ -195,7 +195,7 @@ questions = [
         }
     },
  {
-        "question": "I have debated about my political beliefs multiple times.",
+        "question": "我曾多次就自己的政治信仰展开辩论。",
         "effect": {
             "ther": 0,
             "polc": 10,
@@ -208,7 +208,7 @@ questions = [
         }
     },
     {
-        "question": "Whenever someone talks about something even slightly related to social issues, I tell them to quit being so political or at least think about telling them so.",
+        "question": "每当有人谈起与社会问题哪怕只有稍微一点关系的事情，我都会告诉他们不要这么政治化，或者至少要考虑告诉他们这点。",
         "effect": {
             "ther": 0,
             "polc": -10,
@@ -221,7 +221,7 @@ questions = [
         }
     },
     {
-        "question": "If I see a political show and/or news on TV, I change the channel.",
+        "question": "如果我在电视上看到了政治节目和/或新闻，我就会换频道。",
         "effect": {
             "ther": 0,
             "polc": -10,
@@ -234,7 +234,7 @@ questions = [
         }
     },
     {
-        "question": "Economics is hard to understand.",
+        "question": "经济学难以理解。",
         "effect": {
             "ther": 0,
             "polc": -10,
@@ -247,7 +247,7 @@ questions = [
         }
     },
       {
-        "question": "The more axes a political test has, the better.",
+        "question": "政治测试的坐标轴越多越好。",
         "effect": {
             "ther": 10,
             "polc": 0,
@@ -260,7 +260,7 @@ questions = [
         }
      },
       {
-        "question": "All modern-day politicians are extremely close to each other in their political beliefs.",
+        "question": "在现代，所有政治家在政治信仰上都极其接近。",
         "effect": {
             "ther": -10,
             "polc": -10,
@@ -273,7 +273,7 @@ questions = [
         }
      },
       {
-        "question": "Not choosing a lesser evil will give rise to a greater evil.",
+        "question": "拒绝小恶会产生大恶。",
         "effect": {
             "ther": 0,
             "polc": 10,
@@ -286,7 +286,7 @@ questions = [
         }
      },
     {
-        "question": "Authoritarian goverment allows the ones in control to commit serious crimes against people's rights.",
+        "question": "专制政府将允许统治者犯下反人权的严重罪行。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -299,7 +299,7 @@ questions = [
         }
      },
     {
-        "question": "Abolishing authority would not solve any issues and might result in causing even more problems.",
+        "question": "废除权威不会解决任何问题，而只会造成更多问题。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -312,7 +312,7 @@ questions = [
         }
      },
     {
-        "question": "Saying that all races/cultures are the exact same is wrong.",
+        "question": "认为所有种族/文化都完全相同是错误的。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -325,7 +325,7 @@ questions = [
         }
      },
     {
-        "question": "Thinking that racial/cultural background is the main factor in ones actions is wrong.",
+        "question": "认为种族/文化是影响某人行为的主要因素是错误的。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -338,7 +338,7 @@ questions = [
         }
      },
     {
-        "question": "Righ-Wingers generally provide more logical and constructive arguments.",
+        "question": "右翼人士通常会提供更有逻辑性和建设性的论据。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -351,7 +351,7 @@ questions = [
         }
      },
     {
-        "question": "Left-Wingers are reasonable.",
+        "question": "左翼人士更讲理。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -364,7 +364,7 @@ questions = [
         }
      },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "市场越自由，人民越自由。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -377,7 +377,7 @@ questions = [
         }
      },
     {
-        "question": "The freer the people, the freer the markets.",
+        "question": "人民越自由，市场越自由。",
         "effect": {
             "ther": 0,
             "polc": 0,
