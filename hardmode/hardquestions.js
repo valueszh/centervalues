@@ -910,7 +910,7 @@ questions = [
         }
      },
     {
-        "question": "赏花会带来喜悦。",
+        "question": "看花会带来快乐。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -923,7 +923,7 @@ questions = [
         }
      },
     {
-        "question": "Gaymers are superrior to normies.",
+        "question": "对于正常人来说，同性恋游戏玩家更为高傲。",
         "effect": {
             "ther": 0,
             "polc": 0,
