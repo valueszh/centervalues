@@ -351,7 +351,7 @@ questions = [
         }
      },
     {
-        "question": "左翼人士更讲理。",
+        "question": "左翼人士更公平。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -390,7 +390,7 @@ questions = [
         }
      },
     {
-        "question": "White identarians are not racists.",
+        "question": "白人身份认同者不是种族主义者。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -403,7 +403,7 @@ questions = [
         }
      },
     {
-        "question": "Furries are not gay.",
+        "question": "兽控不是同性恋。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -416,7 +416,7 @@ questions = [
         }
      },
     {
-        "question": "Communalism means robbery.",
+        "question": "共有主义意味着抢劫。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -429,7 +429,7 @@ questions = [
         }
      },
     {
-        "question": "Social darwinism means murder.",
+        "question": "社会达尔文主义意味着谋杀。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -442,7 +442,7 @@ questions = [
         }
      },
     {
-        "question": "Most herbivore animals are opportunistic carnivores.",
+        "question": "大多数食草动物是机会主义的食肉动物。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -455,7 +455,7 @@ questions = [
         }
      },
     {
-        "question": "Animal cruelty is an issue that needs to be dealt with.",
+        "question": "动物虐待是一个需要解决的问题。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -468,7 +468,7 @@ questions = [
         }
      },
     {
-        "question": "Police doesn't need guns to protect people.",
+        "question": "警察无需用枪械保护人民。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -481,7 +481,7 @@ questions = [
         }
      },
     {
-        "question": "Citizens don't need guns to protect themselves.",
+        "question": "公民无需用枪械保护自己。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -494,7 +494,7 @@ questions = [
         }
      },
     {
-        "question": "I love my country/nation.",
+        "question": "我爱我的国家/民族。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -507,7 +507,7 @@ questions = [
         }
      },
     {
-        "question": "Most choices my country makes are very questionable.",
+        "question": "我国做出的大多数选择都是非常值得怀疑的。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -520,7 +520,7 @@ questions = [
         }
      },
     {
-        "question": "There is no morality without god.",
+        "question": "没有上帝就没有道德。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -533,7 +533,7 @@ questions = [
         }
      },
     {
-        "question": "If god exists, he's either not omnipotent or not benevolent.",
+        "question": "如果上帝存在，他不是非全能的就是不仁慈的。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -546,7 +546,7 @@ questions = [
         }
      },
         {
-        "question": "Chinese economic system is very based.",
+        "question": "中国的经济体系非常基于。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -559,7 +559,7 @@ questions = [
         }
      },
       {
-        "question": "Some people don't deserve free speech.",
+        "question": "某些人不配拥有言论自由。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -572,7 +572,7 @@ questions = [
         }
      },
     {
-        "question": "Traps are not gay.",
+        "question": "伪娘不是同性恋。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -585,7 +585,7 @@ questions = [
         }
      },
     {
-        "question": "Trap is a slur.",
+        "question": "“伪娘”的称呼是一种歧视。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -598,7 +598,7 @@ questions = [
         }
      },
        {
-        "question": "Most people say my ideology is a failure and would never work.",
+        "question": "大多数人说我的意识形态是失败的，并且永远不会成功。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -611,7 +611,7 @@ questions = [
         }
      },
     {
-        "question": "Morals are a spook.",
+        "question": "道德是幽灵。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -624,7 +624,7 @@ questions = [
         }
      },
        {
-        "question": "People who don't work should starve.",
+        "question": "不工作的人就该挨饿。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -637,7 +637,7 @@ questions = [
         }
      },
     {
-        "question": "Reading social media posts is a better activity than reading books.",
+        "question": "阅读社交媒体帖子是一项比阅读书籍更好的活动。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -650,7 +650,7 @@ questions = [
         }
      },
     {
-        "question": "It's impossible to deny the tastiness of meat.",
+        "question": "肉的美味无法否认。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -663,7 +663,7 @@ questions = [
         }
      },
         {
-        "question": "Anything with lower intelligence than human should be eaten.",
+        "question": "任何智力低于人类的东西都应该被吃掉。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -676,7 +676,7 @@ questions = [
         }
      },
     {
-        "question": "Pigs' intelligence can rival that of a human.",
+        "question": "猪的智力可以与人类相媲美。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -689,7 +689,7 @@ questions = [
         }
      },
       {
-        "question": "Humans are not meant to be herbivores. It's biology 101.",
+        "question": "人类不应是植食性动物，这是生物学的基本原理。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -702,7 +702,7 @@ questions = [
         }
      },
       {
-        "question": "Raw meat is a healthy food.",
+        "question": "生肉是一种健康食品。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -715,7 +715,7 @@ questions = [
         }
      },
     {
-        "question": "Raw veggies are a healthy food.",
+        "question": 生的蔬菜是一种健康食品。"",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -728,7 +728,7 @@ questions = [
         }
      },
     {
-        "question": "Hamburgers are a healthy food.",
+        "question": "汉堡是一种健康食品。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -741,7 +741,7 @@ questions = [
         }
      },
       {
-        "question": "Replace goverment with McDonalds.",
+        "question": "麦当劳应该取代政府。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -754,7 +754,7 @@ questions = [
         }
      },
     {
-        "question": "I'd choose Candy over Meat.",
+        "question": "我会选择吃糖果而不是吃肉。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -767,7 +767,7 @@ questions = [
         }
      },
     {
-        "question": "Fridge is not safe during the night.",
+        "question": "夜间的冰箱并不安全。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -780,7 +780,7 @@ questions = [
         }
      },
     {
-        "question": "Consumerism is bad.",
+        "question": "消费主义是坏事。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -793,7 +793,7 @@ questions = [
         }
      },
     {
-        "question": "Drugs should be legalized.",
+        "question": "毒品应当合法化。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -806,7 +806,7 @@ questions = [
         }
      },
     {
-        "question": "Only a stupid person would think they're smart.",
+        "question": "只有蠢人才会认为自己聪明。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -819,7 +819,7 @@ questions = [
         }
      },
     {
-        "question": "There are 6 types of logic gates: NOT, AND, OR, NAND, NOR, XAND, XOR.",
+        "question": "一共有六种逻辑门：非门、与门、或门、与非门、或非门、异与门和异或门。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -832,7 +832,7 @@ questions = [
         }
      },
     {
-        "question": "The 100-year war lasted 106 years.",
+        "question": "百年战争持续了106年。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -845,7 +845,7 @@ questions = [
         }
      },
       {
-        "question": "This sentence is wrong.",
+        "question": "这句话是谎话。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -858,7 +858,7 @@ questions = [
         }
      },
     {
-        "question": "The Holocaust didn't happen.",
+        "question": "大屠杀从未发生。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -871,7 +871,7 @@ questions = [
         }
      },
     {
-        "question": "Some cells don't have mitochondria.",
+        "question": "一些细胞没有线粒体。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -897,7 +897,7 @@ questions = [
         }
      },
      {
-        "question": "Whoever thinks this test is accurate is braindead.",
+        "question": "谁认为这个测试是准确的，谁就是脑残。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -910,7 +910,7 @@ questions = [
         }
      },
     {
-        "question": "Looking at flowers brings joy.",
+        "question": "赏花会带来喜悦。",
         "effect": {
             "ther": 0,
             "polc": 0,
