@@ -156,7 +156,7 @@ questions = [
         }
     },
                    {
-        "question": "我知道我国的国家主席、总统、总理、大法官和其他政治人物（如果有的话）的姓名",
+        "question": "我知道我国的国家主席、总统、总理、大法官和其他政治人物的姓名",
         "effect": {
             "ther": 0,
             "polc": 10,
@@ -806,7 +806,7 @@ questions = [
         }
      },
     {
-        "question": "只有蠢人才会认为自己聪明。",
+        "question": "只有蠢蛋才会认为自己聪明。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -897,7 +897,7 @@ questions = [
         }
      },
      {
-        "question": "谁认为这个测试是准确的，谁就是脑残。",
+        "question": "谁认为这个测试是准确的，谁就是蠢蛋。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -923,7 +923,7 @@ questions = [
         }
      },
     {
-        "question": "对于正常人来说，同性恋游戏玩家更为高傲。",
+        "question": "与正常人相比，同性恋游戏玩家更为傲慢。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -936,7 +936,7 @@ questions = [
         }
      },
     {
-        "question": "There is no god but man.",
+        "question": "世界上没有神，只有人。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -949,7 +949,7 @@ questions = [
         }
      },
     {
-        "question": "There is no difference between a capitalist and a pig.",
+        "question": "资本主义者和猪之间没有任何区别。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -962,7 +962,7 @@ questions = [
         }
      },
     {
-        "question": "Cannibalism should be legalized under some circumstances.",
+        "question": "在某些情况下，食人应该是合法的。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -975,7 +975,7 @@ questions = [
         }
      },
     {
-        "question": "All govermental buildings should be made out of glass (or other transparent material).",
+        "question": "所有政府建筑都应使用玻璃或其他透明材料筑成。",
         "effect": {
             "ther": 0,
             "polc": 10,
@@ -988,7 +988,7 @@ questions = [
         }
      },
     {
-        "question": "All privately-owned buildings or corporations should be made out of glass (or other transparent material).",
+        "question": "所有私人建筑和公司都应使用玻璃或其他透明材料筑成。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1001,7 +1001,7 @@ questions = [
         }
      },
     {
-        "question": "It is ok for goverment to install security cameras in public bathrooms.",
+        "question": "政府应该可以在公共浴室安装安全摄像头。",
         "effect": {
             "ther": 0,
             "polc": 0,
