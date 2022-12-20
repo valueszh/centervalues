@@ -1157,7 +1157,7 @@ questions = [
         }
      },
     {
-        "question": "Weather should not be regulated by the goverment, it should be controlled by private companies instead.",
+        "question": "天气不应由政府监管，而应由私人公司控制。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1170,7 +1170,7 @@ questions = [
         }
      },
     {
-        "question": "Companies should be allowed to use future-predicting magic with no regulation.",
+        "question": "应当允许公司使用预测未来的魔法而不受任何监管。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1183,7 +1183,7 @@ questions = [
         }
      },
     {
-        "question": "Usage of non-utility magic by civillians should be banned.",
+        "question": "应当禁止平民使用无益的魔法。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1196,7 +1196,7 @@ questions = [
         }
      },
     {
-        "question": "Elves, centaurs, fairies, dwarves, etc. should be given affirmative action.",
+        "question": "精灵、半人马、仙女和矮人等物种都应该得到平权。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1209,7 +1209,7 @@ questions = [
         }
      },
     {
-        "question": "Species like orcs or goblins are inherently evil: even a few outliers wouldn't change this fact.",
+        "question": "像半兽人和哥布林这样的物种本质上是邪恶的，即使它们中有几个异类也改变不了这个事实。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1222,7 +1222,7 @@ questions = [
         }
      },
     {
-        "question": "Our planet needs an energy barrier to protect it from extraterrestial intruders.",
+        "question": "我们的星球需要一个能量屏障来保护它免受外星入侵。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1235,7 +1235,7 @@ questions = [
         }
      },
     {
-        "question": "Trade with aliens is a good way to better the economy worldwide.",
+        "question": "与外星人贸易是改善世界经济的良好方式。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1248,7 +1248,7 @@ questions = [
         }
      },
     {
-        "question": "The SCP foundation should be abolished, along with any other institutions made to hide truth from the common folk.",
+        "question": "作为一个为向普通民众隐瞒真相而设立的机构，SCP基金会应该连同其他类似机构被废除。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1261,7 +1261,7 @@ questions = [
         }
      },
     {
-        "question": "The need to flair up is an unjust hierarchy.",
+        "question": "在r/politicalcompassmemes上展示用户风格（例如AuthLeft）的需要是一种不工正的等级制度。",
         "effect": {
             "ther": 0,
             "polc": -10,
