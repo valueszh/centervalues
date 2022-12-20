@@ -1014,7 +1014,7 @@ questions = [
         }
      },
     {
-        "question": "Security cameras should be installed everywhere. Not being watched by a camera should be punishable by death.",
+        "question": "应在所有地点安装安全摄像头，未被摄像头监视的人应被处决。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1027,7 +1027,7 @@ questions = [
         }
      },
     {
-        "question": "State should force happiness-inducing substances onto its citizens.",
+        "question": "政府应该强制公民服用诱导幸福的物质。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1040,7 +1040,7 @@ questions = [
         }
      },
     {
-        "question": "Eugenics is a good idea: after all, selective breeding of plants and animals did create superior species.",
+        "question": "优生学是一个好主意，毕竟植物和动物的选择性繁殖确实创造了优秀的物种。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1053,7 +1053,7 @@ questions = [
         }
      },
     {
-        "question": "Animals should have equal rights with humans.",
+        "question": "动物应该拥有与人类平等的权利。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1066,7 +1066,7 @@ questions = [
         }
      },
     {
-        "question": "Androids should have equal rights with humans.",
+        "question": "人型机器人应该拥有与人类平等的权利。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1079,7 +1079,7 @@ questions = [
         }
      },
     {
-        "question": "Plants and fungi should have equal rights with humans.",
+        "question": "植物和真菌应该拥有与人类平等的权利。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1092,7 +1092,7 @@ questions = [
         }
      },
     {
-        "question": "Inanimate objects (such as weapons and tools) should have equal rights with humans.",
+        "question": "无生命物体（如武器和工具）应该与人类拥有平等的权利。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1105,7 +1105,7 @@ questions = [
         }
      },
     {
-        "question": "Pedophiles/Ephebophiles should be given the same rights as LGBTQ individuals.",
+        "question": "恋童癖和恋青少年癖应获得与LGBTQ个体相同的权利。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1118,7 +1118,7 @@ questions = [
         }
      },
     {
-        "question": "All property should be publicly owned; therefore, theft is not a crime.",
+        "question": "所有财产都应公有，因此盗窃并不是犯罪。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1131,7 +1131,7 @@ questions = [
         }
      },
     {
-        "question": "Human bodies should be publicly owned; therefore, murder and rape are not crimes.",
+        "question": "人的身体应当公有，因此谋杀和强奸并不是犯罪。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1144,7 +1144,7 @@ questions = [
         }
      },
     {
-        "question": "Survival of the fittest is applicable to human society; therefore, theft, murder and rape are not crimes.",
+        "question": "适者生存适用于人类社会，因此盗窃、谋杀和强奸都不是犯罪。",
         "effect": {
             "ther": 0,
             "polc": 0,
