@@ -17,22 +17,22 @@
 <script type="application/javascript"
         src="hardquestions.js">
 </script>
-<h1>CenterValues Harmode</h1>
+<h1>CenterValues困难版</h1>
 <hr>
-<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<h2 style="text-align:center;" id="question-number">加载中……</h2>
 <p class="question" id="question-text"></p>
-<button class="button" onclick="next_question( 1.5)" style="background-color: #182600;">I'd go further</button> <br>
-<button class="button" onclick="next_question( 1.25)" style="background-color: #2b4005;">Strongly Agree</button> <br>
-<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Agree</button> <br>
-<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">Slightly Agree</button> <br>
-<button class="button" onclick="next_question( 0.25)" style="background-color: #9fb8a0;">Neutral</button> <br>
-<button class="button" onclick="next_question(-0.25)" style="background-color: #c89d99;">Unsure</button> <br>
-<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Slightly Disagree</button> <br>
-<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Disagree</button> <br>
-<button class="button" onclick="next_question(-1.25)" style="background-color: #57180a;">Strongly Disagree</button> <br>
-<button class="button" onclick="next_question(-1.5)" style="background-color: #330800;">This Sentence Angers Me</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
-<button class="small_button_off" id="back_button_off">Back</button><br>
+<button class="button" onclick="next_question( 1.5)" style="background-color: #182600;">我会走得更远</button> <br>
+<button class="button" onclick="next_question( 1.25)" style="background-color: #2b4005;">非常同意</button> <br>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">同意</button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">略微同意</button> <br>
+<button class="button" onclick="next_question( 0.25)" style="background-color: #9fb8a0;">中立</button> <br>
+<button class="button" onclick="next_question(-0.25)" style="background-color: #c89d99;">不确定</button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">略微反对</button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">反对</button> <br>
+<button class="button" onclick="next_question(-1.25)" style="background-color: #57180a;">非常反对</button> <br>
+<button class="button" onclick="next_question(-1.5)" style="background-color: #330800;">这句话激怒了我</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">返回</button>
+<button class="small_button_off" id="back_button_off">返回</button><br>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -74,7 +74,7 @@ stats"></a></div></noscript>
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "第" + (qn + 1) + "题，共" + (questions.length) + "题";
         if (prev_answer == null) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
