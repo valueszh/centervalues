@@ -1521,7 +1521,7 @@ questions = [
         }
      },
     {
-        "question": "Air-breathing tax and weather tax should be installed.",
+        "question": "应当设定呼吸税和气象税。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1534,7 +1534,7 @@ questions = [
         }
      },
     {
-        "question": "Having phobias should be legally punished.",
+        "question": "恐惧症患者应受法律惩罚。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1547,7 +1547,7 @@ questions = [
         }
      },
     {
-        "question": "Laws should not apply to govermental figures, military, police and church.",
+        "question": "法律不应适用于政府人物、军队、警察和部分宗教组织。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1560,7 +1560,7 @@ questions = [
         }
      },
     {
-        "question": "Animals have no such concept as rape, so consent for intercourse is not needed.",
+        "question": "动物没有类似于强奸的概念，因此性同意是不必要的。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1573,7 +1573,7 @@ questions = [
         }
      },
     {
-        "question": "Animals can consent, show affection and love even if the line seems too blurry for goverment.",
+        "question": "对于政府来说，动物是否可以性同意以及表现出感情和爱的界限过于模糊；但即便如此，对前者的答案依旧是肯定的。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1586,7 +1586,7 @@ questions = [
         }
      },
     {
-        "question": "Laws against molestation of inanimate objects should be installed.",
+        "question": "应制定禁止猥亵无生命物体的法律。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1599,7 +1599,7 @@ questions = [
         }
      },
     {
-        "question": "It is impossible for a single person to be a victim of more than one crime at the same time, since a second crime does not change the persons victim status.",
+        "question": "一个人不可能同时成为两次及以上的犯罪的受害者，因为第二次犯罪不会改变他的受害者身份。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1612,7 +1612,7 @@ questions = [
         }
      },
     {
-        "question": "Human rights should be bought from free market, instead of being granted universally.",
+        "question": "人权应从自由市场购买，而非普遍授予。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1625,7 +1625,7 @@ questions = [
         }
      },
     {
-        "question": "Taxes should only be paid by those who are interested in the services provided.",
+        "question": "只有对税收提供的服务感兴趣的人才应纳税。",
         "effect": {
             "ther": 0,
             "polc": 0,
