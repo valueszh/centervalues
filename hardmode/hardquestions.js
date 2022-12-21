@@ -1274,7 +1274,7 @@ questions = [
         }
      },
     {
-        "question": "Clockwise-wing is generally more eldritch than counterclockwise-wing.",
+        "question": "如果一个犯罪行为在自己的宗教观点下是合理的，这个行为就不是犯罪。",
         "effect": {
             "ther": 10,
             "polc": 10,
@@ -1287,7 +1287,7 @@ questions = [
         }
      },
     {
-        "question": "Language is a tool for population control: newspeak is a good idea.",
+        "question": "语言是控制人民的工具，因此新话是一个好主意。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1300,7 +1300,7 @@ questions = [
         }
      },
     {
-        "question": "Language is a social construct: there's nothing wrong with slang.",
+        "question": "语言是一种社会建构，因此俚语没有错。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1313,7 +1313,7 @@ questions = [
         }
      },
     {
-        "question": "Language is a social construct: there's nothing wrong with slurs.",
+        "question": "语言是一种社会建构，因此歧视语没有错。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1326,7 +1326,7 @@ questions = [
         }
      },
     {
-        "question": "A good way to enforce safety on people is locking them in small-sized rooms with soft walls.",
+        "question": "把人们关在一个墙壁柔软的房间内是保证他们安全的好方法。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1339,7 +1339,7 @@ questions = [
         }
      },
     {
-        "question": "Hell should be focused on cleansing souls from sin instead of eternally punishing them.",
+        "question": "地狱应该专注于将灵魂从罪恶中净化出来，而不是永远惩罚他们。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1352,7 +1352,7 @@ questions = [
         }
      },
     {
-        "question": "Old religious books are outdated and should be rewritten according to modern day moral and social norms.",
+        "question": "旧的宗教书籍已经过时，应该根据现代的道德和社会规范重新编写它们。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1365,7 +1365,7 @@ questions = [
         }
      },
     {
-        "question": "God and Devil should be elected via democratic voting.",
+        "question": "应该通过民主投票选出上帝和魔鬼。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1378,7 +1378,7 @@ questions = [
         }
      },
     {
-        "question": "We should go back to medieval ages.",
+        "question": "我们应该回到中世纪。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1391,7 +1391,7 @@ questions = [
         }
      },
     {
-        "question": "Stat-boosting potions should be banned from use in sports.",
+        "question": "应该禁止在体育运动中使用状态提升魔药。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1404,7 +1404,7 @@ questions = [
         }
      },
     {
-        "question": "Species-reassignment surgeries should be banned.",
+        "question": "应该禁止物种转换手术。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1417,7 +1417,7 @@ questions = [
         }
      },
     {
-        "question": "Time-travel messes with history, and therefore should be banned.",
+        "question": "时间旅行扰乱了历史，应当禁止时间旅行。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1430,7 +1430,7 @@ questions = [
         }
      },
     {
-        "question": "Meat from alien species is not much different from meat of Earth animals, so it is suitable for human consumption.",
+        "question": "来自外星物种和地球生物的肉没有什么不同，因此前者的肉适合人类食用。",
         "effect": {
             "ther": -10,
             "polc": 0,
@@ -1443,7 +1443,7 @@ questions = [
         }
      },
     {
-        "question": "There is nothing wrong with slavery.",
+        "question": "奴隶制度没有错。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1456,7 +1456,7 @@ questions = [
         }
      },
     {
-        "question": "Freedom of speech applies to usage of incantations too.",
+        "question": "言论自由也适用于咒语的使用。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1469,7 +1469,7 @@ questions = [
         }
      },
     {
-        "question": "Goverment should be allowed to read and record thoughts of all of its citizens.",
+        "question": "应当允许政府阅读和记录所有公民的想法。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1482,7 +1482,7 @@ questions = [
         }
      },
     {
-        "question": "If a crime is justifiable with ones religious views, it is not a crime.",
+        "question": "如果犯罪行为在犯罪者的宗教观点下是合理的，这个行为就不是犯罪。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1495,7 +1495,7 @@ questions = [
         }
      },
     {
-        "question": "Witch hunting is a legitimate profession.",
+        "question": "猎巫是一个合法的职业。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1508,7 +1508,7 @@ questions = [
         }
      },
     {
-        "question": "Priests of any religion should be elected by the god(s) of said religion.",
+        "question": "任何宗教的祭司都应该由该宗教的神明推选。",
         "effect": {
             "ther": 0,
             "polc": 0,
