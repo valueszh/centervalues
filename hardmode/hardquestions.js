@@ -1638,7 +1638,7 @@ questions = [
         }
      },
     {
-        "question": "Current education system is a major waste of time/resources and should be abolished. Students should be able to download information directly to their brain instead.",
+        "question": "目前的教育系统是对时间/资源的重大浪费，应该废除。学生应该能够直接将信息下载到他们的大脑中。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1651,7 +1651,7 @@ questions = [
         }
      },
     {
-        "question": "Parents should have the right to throw away (or sell) their children if they want.",
+        "question": "如果父母愿意的话，他们应该有权利扔掉或卖掉他们的孩子。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1664,7 +1664,7 @@ questions = [
         }
      },
     {
-        "question": "Parents should be able to abuse or neglect their children without fear of goverment intervention.",
+        "question": "父母应该能够虐待或忽视他们的孩子而不必担心政府干预。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1677,7 +1677,7 @@ questions = [
         }
      },
     {
-        "question": "Murder should be renamed to Involuntary Assisted Suicide.",
+        "question": "谋杀应改名为非自愿协助自杀。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1690,7 +1690,7 @@ questions = [
         }
      },
     {
-        "question": "Utopia is only achievable in fiction.",
+        "question": "乌托邦只能在小说中实现。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1703,7 +1703,7 @@ questions = [
         }
      },
     {
-        "question": "There are only two genders: Male and Female.",
+        "question": "只有两个性别：男性和女性。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1716,7 +1716,7 @@ questions = [
         }
      },
     {
-        "question": "There are only two names: John and Mary.",
+        "question": "只有两个名字：约翰和玛丽。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1729,7 +1729,7 @@ questions = [
         }
      },
     {
-        "question": "Ideally, there should only be two humans on the planet at a time: one male, the other female.",
+        "question": "在理想情况下，地球上时时刻刻都应该只有两个人类：一个是男性，另一个是女性。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1742,7 +1742,7 @@ questions = [
         }
      },
     {
-        "question": "Public indecency should be banned.",
+        "question": "应禁止公共场合的暴露。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1755,7 +1755,7 @@ questions = [
         }
      },
     {
-        "question": "Ecology is more important than human rights.",
+        "question": "生态环境重要于人权。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1768,7 +1768,7 @@ questions = [
         }
      },
     {
-        "question": "Economy is more important than human rights.",
+        "question": 经济重要于人权。"",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1781,7 +1781,7 @@ questions = [
         }
      },
     {
-        "question": "Technology progresses the fastest during a time of war.",
+        "question": "在战争时期，技术进步最快。",
         "effect": {
             "ther": 0,
             "polc": 0,
