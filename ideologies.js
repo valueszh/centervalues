@@ -1,6 +1,6 @@
 ideologies = [
     {
-        "name": "Self-righteous Cowboy",
+        "name": "自以为是的牛仔",
         "stats": {
             "ther": 0,
             "belf": 50,
@@ -9,7 +9,7 @@ ideologies = [
         }
     },
     {
-        "name": "№ of people = № of ideologies",
+        "name": "世界人类列表=意识形态列表",
         "stats": {
             "ther": 100,
             "belf": 50,
@@ -18,7 +18,7 @@ ideologies = [
         }
     },
     {
-        "name": "Meta-Centrism",
+        "name": "元中立主义者",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -27,7 +27,7 @@ ideologies = [
         }
     },
         {
-        "name": "Greguevarianist",
+        "name": "格雷戈里·格瓦拉主义者",
         "stats": {
             "ther": 50,
             "belf": 0,
@@ -36,7 +36,7 @@ ideologies = [
         }
     },
     {
-        "name": "Bullied Kid",
+        "name": "受欺负的孩子",
         "stats": {
             "ther": 50,
             "belf": 100,
@@ -45,7 +45,7 @@ ideologies = [
         }
     },
     {
-        "name": "Top Chef",
+        "name": "顶级厨师",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -54,7 +54,7 @@ ideologies = [
         }
     },
     {
-        "name": "Modern-day Politician",
+        "name": "当代政治人物",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -63,7 +63,7 @@ ideologies = [
         }
     },
     {
-        "name": "Universal Center",
+        "name": "普世中立主义者",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -72,7 +72,7 @@ ideologies = [
         }
     },
     {
-        "name": "Enlightened Centrist",
+        "name": "开明中立主义者",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -81,7 +81,7 @@ ideologies = [
         }
     },
     {
-        "name": "Just-me-thnostatist",
+        "name": "只有我是无国家主义者",
         "stats": {
             "ther": 0,
             "belf": 0,
@@ -90,7 +90,7 @@ ideologies = [
         }
     },
     {
-        "name": "Sad Loner",
+        "name": "悲伤的孤独者",
         "stats": {
             "ther": 0,
             "belf": 100,
@@ -99,7 +99,7 @@ ideologies = [
         }
     },
         {
-        "name": "Ironic Anti-Centrism",
+        "name": "讽刺性反中立主义者",
         "stats": {
             "ther": 100,
             "belf": 0,
@@ -108,7 +108,7 @@ ideologies = [
         }
     },
     {
-        "name": "Liberal Centrism",
+        "name": "自由中立主义者",
         "stats": {
             "ther": 100,
             "belf": 100,
@@ -117,7 +117,7 @@ ideologies = [
         }
     },
     {
-        "name": "Unironic Anti-Centrism",
+        "name": "非讽刺性反中立主义者",
         "stats": {
             "ther": 100,
             "belf": 0,
@@ -126,7 +126,7 @@ ideologies = [
         }
     },
     {
-        "name": "Extremist Spy",
+        "name": "极端主义间谍",
         "stats": {
             "ther": 100,
             "belf": 0,
@@ -135,7 +135,7 @@ ideologies = [
         }
     },
     {
-        "name": "True Centrist",
+        "name": "真正的中立主义者",
         "stats": {
             "ther": 25,
             "belf": 100,
@@ -144,7 +144,7 @@ ideologies = [
         }
     },
     {
-        "name": "Boomer Centrist",
+        "name": "婴儿潮中立主义者",
         "stats": {
             "ther": 0,
             "belf": 50,
@@ -153,7 +153,7 @@ ideologies = [
         }
     },
     {
-        "name": "Weakling Centrist",
+        "name": "软弱的中立主义者",
         "stats": {
             "ther": 100,
             "belf": 100,
@@ -162,7 +162,7 @@ ideologies = [
         }
     },
     {
-        "name": "Based and Redpilled",
+        "name": "新反动主义者",
         "stats": {
             "ther": 0,
             "belf": 0,
@@ -171,7 +171,7 @@ ideologies = [
         }
     },
     {
-        "name": "Hellgriller",
+        "name": "地狱式烧烤者",
         "stats": {
             "ther": 0,
             "belf": 0,
@@ -180,7 +180,7 @@ ideologies = [
         }
     },
     {
-        "name": "Senatorialist",
+        "name": "参议院主义者",
         "stats": {
             "ther": 0,
             "belf": 0,
@@ -189,7 +189,7 @@ ideologies = [
         }
     },
     {
-        "name": "Moralist",
+        "name": "道德主义者",
         "stats": {
             "ther": 100,
             "belf": 100,
@@ -198,7 +198,7 @@ ideologies = [
         }
     },
     {
-        "name": "Realist",
+        "name": "现实主义者",
         "stats": {
             "ther": 100,
             "belf": 100,
@@ -207,7 +207,7 @@ ideologies = [
         }
     },
     {
-        "name": "Inversive Realist",
+        "name": "逆向思维现实主义者",
         "stats": {
             "ther": 0,
             "belf": 50,
@@ -216,7 +216,7 @@ ideologies = [
         }
     },
     {
-        "name": "Boring Realist",
+        "name": "无聊的现实主义者",
         "stats": {
             "ther": 50,
             "belf": 100,
@@ -225,7 +225,7 @@ ideologies = [
         }
     },
     {
-        "name": "Immoralist",
+        "name": "反道德主义者",
         "stats": {
             "ther": 50,
             "belf": 0,
@@ -234,7 +234,7 @@ ideologies = [
         }
     },
     {
-        "name": "Occam Realist",
+        "name": "奥卡姆式现实主义者",
         "stats": {
             "ther": 25,
             "belf": 100,
@@ -243,7 +243,7 @@ ideologies = [
         }
     },
     {
-        "name": "Orwellian Realist",
+        "name": "奥威尔式现实主义者",
         "stats": {
             "ther": 0,
             "belf": 100,
@@ -252,7 +252,7 @@ ideologies = [
         }
     },
     {
-        "name": "Fishhook theorist",
+        "name": "鱼钩模型",
         "stats": {
             "ther": 25,
             "belf": 50,
@@ -261,7 +261,7 @@ ideologies = [
         }
     },
     {
-        "name": "Centrist Anti-Centrist",
+        "name": "中立主义反中立主义者",
         "stats": {
             "ther": 100,
             "belf": 0,
@@ -270,7 +270,7 @@ ideologies = [
         }
     },
     {
-        "name": "Moderate Anti-Centrist",
+        "name": "温和反中立主义者",
         "stats": {
             "ther": 100,
             "belf": 100,
@@ -279,7 +279,7 @@ ideologies = [
         }
     },
     {
-        "name": "Fake Centrist",
+        "name": "假中立主义者",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -288,7 +288,7 @@ ideologies = [
         }
     },
     {
-        "name": "Radical Centrist",
+        "name": "激进中立主义者",
         "stats": {
             "ther": 75,
             "belf": 0,
@@ -297,7 +297,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anti-Extremist",
+        "name": "反极端主义者",
         "stats": {
             "ther": 0,
             "belf": 100,
@@ -306,7 +306,7 @@ ideologies = [
         }
     },
     {
-        "name": "Apolitical",
+        "name": "非政治",
         "stats": {
             "ther": 0,
             "belf": 50,
@@ -315,7 +315,7 @@ ideologies = [
         }
     },
     {
-        "name": "Radical Apolitical",
+        "name": "激进非政治",
         "stats": {
             "ther": 0,
             "belf": 0,
@@ -324,7 +324,7 @@ ideologies = [
         }
     },
     {
-        "name": "Political Nihilist",
+        "name": "政治虚无主义者",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -333,7 +333,7 @@ ideologies = [
         }
     },
     {
-        "name": "Centrist Sympathiser",
+        "name": "中立主义同情者",
         "stats": {
             "ther": 100,
             "belf": 50,
@@ -342,7 +342,7 @@ ideologies = [
         }
     },
     {
-        "name": "Singularity Centrism",
+        "name": "奇点中心主义",
         "stats": {
             "ther": 100,
             "belf": 50,
@@ -351,7 +351,7 @@ ideologies = [
         }
     },
     {
-        "name": "Extremism",
+        "name": "极端主义",
         "stats": {
             "ther": 100,
             "belf": 50,
@@ -360,7 +360,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anti-flairism",
+        "name": "反天赋主义者",
         "stats": {
             "ther": 50,
             "belf": 0,
@@ -369,7 +369,7 @@ ideologies = [
         }
     },
     {
-        "name": "Normie",
+        "name": "正常人",
         "stats": {
             "ther": 50,
             "belf": 100,
@@ -378,7 +378,7 @@ ideologies = [
         }
     },
     {
-        "name": "Radical Moderate",
+        "name": "激进温和派",
         "stats": {
             "ther": 0,
             "belf": 25,
