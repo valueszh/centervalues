@@ -63,7 +63,7 @@ ideologies = [
         }
     },
     {
-        "name": "普世中立主义者",
+        "name": "普世中立",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -99,7 +99,7 @@ ideologies = [
         }
     },
         {
-        "name": "讽刺性反中立主义者",
+        "name": "讽刺性反中立主义",
         "stats": {
             "ther": 100,
             "belf": 0,
@@ -108,7 +108,7 @@ ideologies = [
         }
     },
     {
-        "name": "自由中立主义者",
+        "name": "自由中立主义",
         "stats": {
             "ther": 100,
             "belf": 100,
@@ -117,7 +117,7 @@ ideologies = [
         }
     },
     {
-        "name": "非讽刺性反中立主义者",
+        "name": "非讽刺性反中立主义",
         "stats": {
             "ther": 100,
             "belf": 0,
@@ -252,7 +252,7 @@ ideologies = [
         }
     },
     {
-        "name": "鱼钩模型",
+        "name": "鱼钩理论",
         "stats": {
             "ther": 25,
             "belf": 50,
@@ -279,7 +279,7 @@ ideologies = [
         }
     },
     {
-        "name": "假中立主义者",
+        "name": "伪中立主义者",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -342,7 +342,7 @@ ideologies = [
         }
     },
     {
-        "name": "奇点中心主义",
+        "name": "奇点中立主义",
         "stats": {
             "ther": 100,
             "belf": 50,
@@ -360,7 +360,7 @@ ideologies = [
         }
     },
     {
-        "name": "反天赋主义者",
+        "name": "反天赋者",
         "stats": {
             "ther": 50,
             "belf": 0,
@@ -387,7 +387,7 @@ ideologies = [
         }
     },
     {
-        "name": "Aroace Agender Apolitical Atheist",
+        "name": "无浪漫取向无性恋无性别非政治无神论者",
         "stats": {
             "ther": 100,
             "belf": 25,
@@ -396,7 +396,7 @@ ideologies = [
         }
     },
     {
-        "name": "Fence with windows",
+        "name": "带窗户的围栏",
         "stats": {
             "ther": 75,
             "belf": 50,
@@ -405,7 +405,7 @@ ideologies = [
         }
     },
     {
-        "name": "Contradictionalism",
+        "name": "矛盾主义",
         "stats": {
             "ther": 100,
             "belf": 0,
@@ -414,7 +414,7 @@ ideologies = [
         }
     },
     {
-        "name": "Populism",
+        "name": "民粹主义",
         "stats": {
             "ther": 100,
             "belf": 25,
@@ -423,7 +423,7 @@ ideologies = [
         }
     },
     {
-        "name": "Extremist Centrism",
+        "name": "极端中立主义",
         "stats": {
             "ther": 100,
             "belf": 0,
@@ -432,7 +432,7 @@ ideologies = [
         }
     },
     {
-        "name": "Gravitational Centrism",
+        "name": "重力中立主义",
         "stats": {
             "ther": 50,
             "belf": 0,
@@ -441,7 +441,7 @@ ideologies = [
         }
     },
     {
-        "name": "Politicophobe",
+        "name": "政治恐惧症者",
         "stats": {
             "ther": 25,
             "belf": 75,
@@ -450,7 +450,7 @@ ideologies = [
         }
     },
     {
-        "name": "Status Quo Upholder",
+        "name": "维持现状者",
         "stats": {
             "ther": 75,
             "belf": 75,
@@ -459,7 +459,7 @@ ideologies = [
         }
     },
     {
-        "name": "Blind Follower",
+        "name": "盲目追随者",
         "stats": {
             "ther": 80,
             "belf": 100,
@@ -468,7 +468,7 @@ ideologies = [
         }
     },
     {
-        "name": "Average Non-voter",
+        "name": "普通非选民",
         "stats": {
             "ther": 20,
             "belf": 80,
@@ -477,7 +477,7 @@ ideologies = [
         }
     },
     {
-        "name": "Thanosism",
+        "name": "灭霸主义",
         "stats": {
             "ther": 50,
             "belf": 0,
@@ -486,7 +486,7 @@ ideologies = [
         }
     },
     {
-        "name": "Peacemaker",
+        "name": "和平缔造者",
         "stats": {
             "ther": 75,
             "belf": 100,
@@ -495,7 +495,7 @@ ideologies = [
         }
     },
     {
-        "name": "Optimistic Centrism",
+        "name": "乐观中立主义",
         "stats": {
             "ther": 75,
             "belf": 100,
@@ -504,7 +504,7 @@ ideologies = [
         }
     },
     {
-        "name": "Political Doomer",
+        "name": "政治末世论者",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -513,7 +513,7 @@ ideologies = [
         }
     },
     {
-        "name": "Uninformed Centrism",
+        "name": "无知的中立主义者",
         "stats": {
             "ther": 25,
             "belf": 50,
@@ -522,7 +522,7 @@ ideologies = [
         }
     },
     {
-        "name": "UK Voter",
+        "name": "英国选民",
         "stats": {
             "ther": 60,
             "belf": 50,
@@ -531,7 +531,7 @@ ideologies = [
         }
     },
     {
-        "name": "Inoffensive Centrist Democracy",
+        "name": "非进攻性的中立民主主义",
         "stats": {
             "ther": 75,
             "belf": 100,
@@ -540,7 +540,7 @@ ideologies = [
         }
     },
     {
-        "name": "Someone with opinions",
+        "name": "有意见的人",
         "stats": {
             "ther": 70,
             "belf": 35,
@@ -549,7 +549,7 @@ ideologies = [
         }
     },
     {
-        "name": "Neocentrism",
+        "name": "新中立主义",
         "stats": {
             "ther": 0,
             "belf": 100,
@@ -558,7 +558,7 @@ ideologies = [
         }
     },
     {
-        "name": "Post-centrism",
+        "name": "后中立主义",
         "stats": {
             "ther": 50,
             "belf": 0,
@@ -567,7 +567,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anti-politicism",
+        "name": "反政治主义",
         "stats": {
             "ther": 0,
             "belf": 100,
