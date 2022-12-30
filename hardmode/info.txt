@@ -1,24 +1,24 @@
-So i've had this stupid idea on adding a hardmode with extra axes, questions and new features. Things I want to add:
+所以我有一个愚蠢的想法，就是增加一个带有额外坐标轴、问题和新功能的困难模式。我想要添加：
 
-- Left/Right, Auth/Lib leaning axes so that the Dead/Leaning axis would be calculated from them!
--- Done! (ooooh, maybe add anfash/capcom axis?)
+- 左/右轴和威权/自由轴，这将会使死亡/倾斜轴可以从它们中计算出来！
+-- 完成！（哦，也许可以加上安法/资康轴？）
 
-- Vegan/Meat and Healthy/Junkfood axes. 'Cause grillin' and stuff, haha.
--- Done!
+- 纯素/肉类和健康/垃圾食品轴。这是因为“烧烤”什么的，哈哈。
+-- 完成！
 
-- Smart/Strong axis with stolen questions from random iq tests.
--- Done! Decided to go with trivia questions.
+- 聪明/强壮轴心，问题偷取自随机的智力测试。
+-- 完成！决定使用冷知识作为问题。
 
-- Quick/Patient axis. I'd need to find a way to implement a timer for this one.
+- 快速/耐心轴。我需要找到一种方法来实现计时功能。
 
-- Steal extra buttons (I'd go further/This question angers me) from 8dreams. Also add Strongly (dis)agree buttons.
--- Done!
+- 从8dreams窃取额外的按钮（我会走得更远/这句话激怒了我），同时增加非常（不）同意的按钮。
+-- 完成！
 
-- Remove questions for the Moderate/Radical axis and instead calculate it by ammount of Strongly (dis)agree and Slightly (dis)agree buttons pushed.
--- Done!
+- 删除温和/激进轴的问题，并将计算之的方法改为计算按下强烈（不）同意和略微（不）同意按钮的次数。
+-- 完成！
 
-- Either remove the Neutral/Unsure button or make it add points towards Apolitical on the Politic axes. The latter is funnier, but i think hardmode shouldn't have a centrist option.
--- Oh, maybe split it into two buttons! Neutral would be like the lightest-weight of agrees, and Unsure would be the lightest-weight of disagrees! Both give extra points towards apolitical axis.
--- Done! Also I've made it so being neutral/unsure on the apolitical questions would not give extra points towards apolitical!
+- 删除中立/不确定按钮，或者让它在政治轴上向非政治化加分。后者会更加有趣，但我认为困难模式不应该拥有一个中立的选项。
+-- 哦，也许可以把它分成两个按钮! 中立代表最轻量级的同意，而不确定代表着最轻量级的不同意! 两者都会为非政治性的轴心加分。
+-- 完成！此外，我还规定了在非政治问题上保持中立/不确定不会给非政治问题加分!
 
-That's it for now.
+暂时就这些了。
