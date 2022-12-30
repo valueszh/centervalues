@@ -1742,7 +1742,7 @@ questions = [
         }
      },
     {
-        "question": "应禁止公共场合的暴露。",
+        "question": "应禁止公共场合暴露。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1755,7 +1755,7 @@ questions = [
         }
      },
     {
-        "question": "生态环境重要于人权。",
+        "question": "生态环境大于人权。",
         "effect": {
             "ther": 0,
             "polc": 0,
@@ -1768,7 +1768,7 @@ questions = [
         }
      },
     {
-        "question": 经济重要于人权。"",
+        "question": "经济大于人权。",
         "effect": {
             "ther": 0,
             "polc": 0,
