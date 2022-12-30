@@ -715,7 +715,7 @@ questions = [
         }
      },
     {
-        "question": 生的蔬菜是一种健康食品。"",
+        "question": "生蔬菜是一种健康食品。",
         "effect": {
             "ther": 0,
             "polc": 0,
