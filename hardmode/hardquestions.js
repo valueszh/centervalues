@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "我不会参与任何形式的抗议。",
+        "question": "我不会参与任何形式的抗议行动。",
         "effect": {
             "ther": 0,
             "polc": -10,
