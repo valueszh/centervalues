@@ -455,7 +455,7 @@ questions = [
         }
      },
     {
-        "question": "动物虐待是一个需要解决的问题。",
+        "question": "动物虐待是一个亟待解决的问题。",
         "effect": {
             "ther": 0,
             "polc": 0,
