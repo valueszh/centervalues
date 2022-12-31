@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Giving lots of power to megacorporations is not much different from giving same ammount of power to the goverment.",
+        "question": "给予大公司大量权力与给予政府同样的权力没什么不同。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -9,7 +9,7 @@ questions = [
         }
     },
         {
-        "question": "Nazis and communists are basically the same.",
+        "question": "纳粹主义者和共产主义者基本一致。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -18,7 +18,7 @@ questions = [
         }
     },
             {
-        "question": "Anarcho-(insert_random_ideology_name) is the same as any other type of anarchism.",
+        "question": "任何形式的无政府主义都和其他无政府主义没有差别。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -27,7 +27,7 @@ questions = [
         }
     },
             {
-        "question": "Totalitarian regimes = literally 1984, no matter the policies.",
+        "question": "无论极权主义政权实施了什么政策，它们都完全等同于1984。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -36,7 +36,7 @@ questions = [
         }
     },
             {
-        "question": "Anti-fascist and social justice movements are as biggoted as those whom they oppose.",
+        "question": "反法西斯和社会正义运动的参与者与他们所反对的人一样偏执。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -45,7 +45,7 @@ questions = [
         }
     },
             {
-        "question": "Everyone far-right is a nazi.",
+        "question": "所有极右都是纳粹。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -54,7 +54,7 @@ questions = [
         }
     },
             {
-        "question": "Everyone far-left is a stalinist.",
+        "question": "所有极左都是斯大林主义者。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -63,7 +63,7 @@ questions = [
         }
     },
             {
-        "question": "All libs are leftists.",
+        "question": "所有自由派都是左派。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -72,7 +72,7 @@ questions = [
         }
     },
             {
-        "question": "Theists and atheists are equally vocal and annoying.",
+        "question": "有神论者和无神论者的声音同样响亮而令人讨厌。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -81,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "Current political status quo is okay, even if it needs minor improvements.",
+        "question": "即使当前的政治现状需要一定的改进，它在整体上仍是可以接受的。",
         "effect": {
             "ther": 0,
             "belf": 10,
@@ -90,7 +90,7 @@ questions = [
         }
     },
             {
-        "question": "Whoever wrote the previous question has a major case of dumb.",
+        "question": "无论是谁写下了前面这个问题，他都是一个大蠢蛋。",
         "effect": {
             "ther": 0,
             "belf": -10,
@@ -99,7 +99,7 @@ questions = [
         }
     },
                 {
-        "question": "Technological, cultural and societal progress go hand-in-hand with each other.",
+        "question": "技术、文化和社会进步相辅相成。",
         "effect": {
             "ther": 0,
             "belf": 10,
@@ -108,7 +108,7 @@ questions = [
         }
     },
                 {
-        "question": "The traditon/progress axis is stupid. Supporting science should not be equated to being pro-lgbt or pro-racial equality. The same goes the other way around.",
+        "question": "传统/进步坐标轴十分愚蠢，支持科研不应该等同于支持同性恋或种族平等，反之亦然。",
         "effect": {
             "ther": 0,
             "belf": -10,
@@ -117,7 +117,7 @@ questions = [
         }
     },
                 {
-        "question": "Extremists and/or a group I dislike deserve to fucking die. That's the only way to achieve peace.",
+        "question": "极端分子和/或我不喜欢的群体都应该他妈的去死，这是实现和平的唯一途径。",
         "effect": {
             "ther": 0,
             "belf": -10,
@@ -126,7 +126,7 @@ questions = [
         }
     },
                 {
-        "question": "Authoritarian goverment allows the ones in control to commit serious crimes against people's rights, which is bad, but that issue shouldn't be resolved by the drastic measures of removing authority altogether.",
+        "question": "威权政府将允许统治者犯下反人权的严重罪行，这种事很糟糕。但不应该通过完全取消权力的激烈措施来解决这个问题。",
         "effect": {
             "ther": 0,
             "belf": 10,
@@ -135,7 +135,7 @@ questions = [
         }
     },
                 {
-        "question": "Saying that all races/cultures are the exact same is wrong, but so is thinking that racial/cultural background is the main factor in ones actions.",
+        "question": "认为所有种族/文化都完全相同是错误的，但认为种族/文化是影响某人行为的主要因素也有问题。",
         "effect": {
             "ther": 0,
             "belf": 10,
