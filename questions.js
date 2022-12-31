@@ -135,7 +135,7 @@ questions = [
         }
     },
                 {
-        "question": "认为所有种族/文化都完全相同是错误的，但认为种族/文化是影响某人行为的主要因素也有问题。",
+        "question": "认为所有种族/文化都完全相同固然是错误的，但种族/文化对于某人行为起主要作用的观点也有问题。",
         "effect": {
             "ther": 0,
             "belf": 10,
@@ -144,7 +144,7 @@ questions = [
         }
     },
                 {
-        "question": "The most drastic measure for political change is a demonstration/protest. Anything more extreme than that is just meaningless violence.",
+        "question": "示威和抗议是可允许的最激烈政治变革措施，任何比这更极端的做法都是毫无意义的暴力。",
         "effect": {
             "ther": 0,
             "belf": 10,
@@ -153,7 +153,7 @@ questions = [
         }
     },
     {
-        "question": "I would only participate in a protest if I'm sure that things will not get violent.",
+        "question": "我只有在确定事态不会发展为暴力的情况下才会参加抗议活动。",
         "effect": {
             "ther": 0,
             "belf": 10,
@@ -162,7 +162,7 @@ questions = [
         }
     },
     {
-        "question": "I would not participate in any kind of protest.",
+        "question": "我不会参与任何形式的抗议行动。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -171,7 +171,7 @@ questions = [
         }
     },
                {
-        "question": "Serious political media does not interest me.",
+        "question": "我对严肃的政治媒体不感兴趣。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -180,7 +180,7 @@ questions = [
         }
     },
                    {
-        "question": "I do not want to vote on any political candidate/party.",
+        "question": "我不想给任何政治候选人或政党投票。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -189,7 +189,7 @@ questions = [
         }
     },
                    {
-        "question": "I know the name of the president, prime minister, chancellor and multiple other politicians of my country.",
+        "question": "我知道我国的国家主席、总统、总理、大法官和其他政治人物的姓名。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -198,7 +198,7 @@ questions = [
         }
     },
   {
-        "question": "I have never learned history/Forgot most of it.",
+        "question": "我从来没有学过历史，或者忘掉了它的大部分。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -207,7 +207,7 @@ questions = [
         }
     },
  {
-        "question": "My knowledge of politics mostly comes from internet memes and/or satirical media.",
+        "question": "M我对政治的了解大多来自互联网模因和/或讽刺媒体。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -216,7 +216,7 @@ questions = [
         }
     },
  {
-        "question": "I have debated about my political beliefs multiple times.",
+        "question": "我曾多次就自己的政治信仰展开过辩论。",
         "effect": {
             "ther": 0,
             "belf": 0,
