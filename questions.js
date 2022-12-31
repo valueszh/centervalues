@@ -207,7 +207,7 @@ questions = [
         }
     },
  {
-        "question": "M我对政治的了解大多来自互联网模因和/或讽刺媒体。",
+        "question": "我对政治的了解大多来自互联网模因和/或讽刺媒体。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -225,7 +225,7 @@ questions = [
         }
     },
     {
-        "question": "Whenever someone talks about something even slightly related to social issues, I tell them to quit being so political or at least think about telling them so.",
+        "question": "每当有人谈起与社会问题哪怕只有稍微一点关系的事情，我都会告诉他们不要这么政治化，或者至少要考虑告诉他们这点。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -234,7 +234,7 @@ questions = [
         }
     },
     {
-        "question": "If I see a political show and/or news on TV, I change the channel.",
+        "question": "如果我在电视上看到了政治节目和/或新闻，我就会换频道。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -243,7 +243,7 @@ questions = [
         }
     },
     {
-        "question": "ONLY ONE of these is correct: Righ-Wingers generally provide more logical and constructive arguments | Left-Wingers are reasonable.",
+        "question": "下列陈述有且仅有一项是正确的：右翼人士通常会提供更有逻辑性和建设性的论据 | 左翼人生更讲道理。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -252,7 +252,7 @@ questions = [
         }
     },
         {
-        "question": "ONLY ONE of these is correct: The freer the markets, the freer the people | The freer the people, the freer the markets.",
+        "question": "下列陈述有且仅有一项是正确的：市场越自由，人民越自由 | 人民越自由，市场越自由。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -261,7 +261,7 @@ questions = [
         }
     },
        {
-        "question": "ONLY ONE of these is correct: White identarians are not racists | Furries are not gay.",
+        "question": "下列陈述有且仅有一项是正确的：白人身份认同者不是种族主义者 | 兽控不是同性恋。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -270,7 +270,7 @@ questions = [
         }
      },
             {
-        "question": "ONLY ONE of these is correct: Communalism means robbery | Social darwinism means murder.",
+        "question": "下列陈述有且仅有一项是正确的：共有主义意味着抢劫 | 社会达尔文主义意味着谋杀。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -279,7 +279,7 @@ questions = [
         }
      },
           {
-        "question": "ONLY ONE of these is correct: Totalitarism is an unnecessary evil | Anarchy is unnecessary chaos.",
+        "question": "下列陈述有且仅有一项是正确的：极权主义是不必要之恶 | 无政府主义是不必要之乱。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -288,7 +288,7 @@ questions = [
         }
      },
         {
-        "question": "ONLY ONE of these is correct: Most herbivore animals are opportunistic carnivores | Animal cruelty is an issue that needs to be dealt with.",
+        "question": "下列陈述有且仅有一项是正确的：大多数食草动物是机会主义的食肉动物 | 动物虐待是一个亟待解决的问题。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -297,7 +297,7 @@ questions = [
         }
      },
       {
-        "question": "ONLY ONE of these is correct: Police doesn't need guns to protect people | Citizens don't need guns to protect themselves.",
+        "question": "下列陈述有且仅有一项是正确的：警察无需用枪械保护人民 | 公民无需用枪械保护自己。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -306,7 +306,7 @@ questions = [
         }
      },
       {
-        "question": "ONLY ONE of these is correct: I love my country/nation | Most choices my country makes are very questionable.",
+        "question": "下列陈述有且仅有一项是正确的：我爱我的国家/民族。 | 我国做出的大多数选择都是非常值得怀疑的。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -315,7 +315,7 @@ questions = [
         }
      },
       {
-        "question": "ONLY ONE of these is correct: There is no morality without god | If god exists, he's either not omnipotent or not benevolent.",
+        "question": "下列陈述有且仅有一项是正确的：没有上帝就没有道德 | 如果上帝存在，他不是非全能的就是不仁慈的。",
         "effect": {
             "ther": 0,
             "belf": 0,
@@ -324,7 +324,7 @@ questions = [
         }
      },
       {
-        "question": "Whenever I see people arguing, I try to find compromise between both opinions instead of taking sides.",
+        "question": "每当人们争论不休时，我就会试图在两种意见之间形成妥协，而不是偏袒其中一方。",
         "effect": {
             "ther": 0,
             "belf": 10,
@@ -333,7 +333,7 @@ questions = [
         }
      },
       {
-        "question": "The more axes a political test has, the better.",
+        "question": "政治测试的坐标轴越多越好。",
         "effect": {
             "ther": 10,
             "belf": -10,
@@ -342,7 +342,7 @@ questions = [
         }
      },
       {
-        "question": "All modern-day politicians are extremely close to each other in their political beliefs.",
+        "question": "在现代，所有政治家在政治信仰上都极其接近。",
         "effect": {
             "ther": -10,
             "belf": 0,
@@ -351,7 +351,7 @@ questions = [
         }
      },
       {
-        "question": "Not choosing a lesser evil will give rise to a greater evil.",
+        "question": "拒绝小恶会产生大恶。",
         "effect": {
             "ther": 0,
             "belf": 0,
