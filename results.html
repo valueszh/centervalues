@@ -17,40 +17,40 @@
 	<h1>CenterValues</h1>
 	<hr>
 	
-	<h1>Results</h1>
+	<h1>结果</h1>
 	
-	<h2>Theoretic Axis: <span class="weight-300" id="Theoretic-label"></span></h2>
+	<h2>理论轴：<span class="weight-300" id="Theoretic-label"></span></h2>
 	<div class="axis">
 	    <img id="img-axes" src="value-images/IconAxes.png" height="128pt"/>
 	    <div class="bar axes" id="bar-axes"><div class="text-wrapper" id="axes"></div></div>
 	    <div class="bar horseshoe" id="bar-horseshoe"><div class="text-wrapper" id="horseshoe"></div></div>
 	    <img id="img-horseshoe" src="value-images/IconSame.png" height="128pt"/>
 	</div>
-	<h2>Beliefal Axis: <span class="weight-300" id="Beliefal-label"></span></h2>
+	<h2>信仰轴：<span class="weight-300" id="Beliefal-label"></span></h2>
 	<div class="axis">
 	    <img id="img-moderate" src="value-images/IconMod.png" height="128pt"/>
 	    <div class="bar moderate" id="bar-moderate"><div class="text-wrapper" id="moderate"></div></div>
 	    <div class="bar radical" id="bar-radical"><div class="text-wrapper" id="radical"></div></div>
 	    <img id="img-radical" src="value-images/IconRad.png" height="128pt"/>
 	</div>
-	<h2>Politic Axis: <span class="weight-300" id="Politic-label"></span></h2>
+	<h2>政治轴：<span class="weight-300" id="Politic-label"></span></h2>
 	<div class="axis">
 	    <img id="img-political" src="value-images/IconPol.png" height="128pt"/>
 	    <div class="bar political" id="bar-political"><div class="text-wrapper" id="political"></div></div>
 	    <div class="bar apolitical" id="bar-apolitical"><div class="text-wrapper" id="apolitical"></div></div>
 	    <img id="img-apolitical" src="value-images/IconApol.png" height="128pt"/>
 	</div>
-	<h2>Coordinatic Axis: <span class="weight-300" id="Coordinatic-label"></span></h2>
+	<h2>协调轴：<span class="weight-300" id="Coordinatic-label"></span></h2>
 	<div class="axis">
 	    <img id="img-dead" src="value-images/IconDead.png" height="128pt"/>
 	    <div class="bar dead" id="bar-dead"><div class="text-wrapper" id="dead"></div></div>
 	    <div class="bar leaning" id="bar-leaning"><div class="text-wrapper" id="leaning"></div></div>
 	    <img id="img-leaning" src="value-images/IconLean.png" height="128pt"/>
 	</div>
-	<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-	<p>Ideological matching is a work in progress, and is even less accurate than the values and axes.</p><hr/>
+	<h2>最接近的匹配：<span class="weight-300" id="ideology-label"></span></h2>
+	<p>意识形态匹配是一项正在进行中的工作，其准确性远远低于价值观和坐标轴百分比。</p><hr/>
 	<img src="" id="banner">
-	<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
+	<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">返回</button> <br>
 	<!-- Website visit statistics - no personal information is collected! -->
 	<script type="text/javascript">
 	var sc_project=11325211;
@@ -89,10 +89,10 @@
 	        }
 	    }
 	
-	    therArray = ["100axes Theorist","9axes Theorist","Political Compass Theorist","Single Axis Theory","Horseshoe Theorist","Donut Theorist","Everyone's stupid but me"]
-	    belfArray = ["Spineless","Anti-Radical","Cute","Overtonic","Semi-Radical","Radical","Every Extreme"]
-	    polcArray = ["Politician","Serious","Educated","Medium-rare","Unflaired","Apolitical","Griller"]
-	    cordArray = ["Requiem","Dead","Balanced","The 0.5","Slightly Leaning","Edgy","Extremist"]
+	    therArray = ["100坐标轴理论","9坐标轴理论","政治罗盘理论","单坐标轴理论","马蹄铁理论","甜甜圈理论","所有人都是蠢蛋，但我除外"]
+	    belfArray = ["软弱","反极端","可爱","奥弗顿之窗内","半激进","激进","每种极端情况"]
+	    polcArray = ["政治人物","严肃","受教育","四分熟","无天赋","非政治","烧烤者"]
+	    cordArray = ["安魂弥撒","死亡","平衡","0.5","略带倾向性","前卫","极端主义"]
 	
 	    function setLabel(val,ary) {
 	        if (val > 100) { return "1337 H4X" } else
@@ -217,12 +217,12 @@
 	        if (leaning  > 30) {ctx.fillText(leaning + "%", 670, 597.5)}
 	
 	        ctx.font="300 30px Montserrat"
-	        ctx.fillText("centervalues.github.io", 780, 30)
+	        ctx.fillText("valueszh.github.io/centervalues", 780, 30)
 	        ctx.textAlign="center"
-	        ctx.fillText("Theoretic Axis: " + document.getElementById("Theoretic-label").innerHTML, 400, 175)
-	        ctx.fillText("Beliefal Axis: " + document.getElementById("Beliefal-label").innerHTML, 400, 295)
-	        ctx.fillText("Politic Axis: " + document.getElementById("Politic-label").innerHTML, 400, 415)
-	        ctx.fillText("Coordinatic Axis: " + document.getElementById("Coordinatic-label").innerHTML, 400, 535)
+	        ctx.fillText("理论轴：" + document.getElementById("Theoretic-label").innerHTML, 400, 175)
+	        ctx.fillText("信仰轴：" + document.getElementById("Beliefal-label").innerHTML, 400, 295)
+	        ctx.fillText("政治轴：" + document.getElementById("Politic-label").innerHTML, 400, 415)
+	        ctx.fillText("协调轴：" + document.getElementById("Coordinatic-label").innerHTML, 400, 535)
 	
 	        document.getElementById("banner").src = c.toDataURL();
 	    }
