@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>CenterValues Quiz</title>
+<title>CenterValues测试</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -21,13 +21,13 @@
 <hr>
 <h2 style="text-align:center;" id="question-number">Loading...</h2>
 <p class="question" id="question-text"></p>
-<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Agree</button> <br>
-<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">Slightly Agree</button> <br>
-<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
-<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Slightly Disagree</button> <br>
-<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Disagree</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
-<button class="small_button_off" id="back_button_off">Back</button><br>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">同意</button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">略微同意</button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">中立/不确定</button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">略微反对</button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">反对</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">返回</button>
+<button class="small_button_off" id="back_button_off">返回</button><br>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -63,7 +63,7 @@ stats"></a></div></noscript>
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "第" + (qn + 1) + "题，共" + (questions.length) +"题";
         if (prev_answer == null) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
