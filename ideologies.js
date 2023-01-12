@@ -162,7 +162,7 @@ ideologies = [
         }
     },
     {
-        "name": "黑暗启蒙主义者",
+        "name": "新反动主义者",
         "stats": {
             "ther": 0,
             "belf": 0,
