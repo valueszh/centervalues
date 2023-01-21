@@ -27,7 +27,7 @@ ideologies = [
         }
     },
         {
-        "name": "格雷戈里·格瓦拉主义者",
+        "name": "格雷格·格瓦拉主义者",
         "stats": {
             "ther": 50,
             "belf": 0,
