@@ -360,7 +360,7 @@ ideologies = [
         }
     },
     {
-        "name": "反天赋者",
+        "name": "反用户风格者",
         "stats": {
             "ther": 50,
             "belf": 0,
