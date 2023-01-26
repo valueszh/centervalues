@@ -1261,7 +1261,7 @@ questions = [
         }
      },
     {
-        "question": "在r/politicalcompassmemes上展示用户风格（例如AuthLeft）的需要是一种不工正的等级制度。",
+        "question": "在r/politicalcompassmemes上展示用户风格（例如AuthLeft）的需要是一种不公正的等级制度。",
         "effect": {
             "ther": 0,
             "polc": -10,
