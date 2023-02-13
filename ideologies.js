@@ -18,7 +18,7 @@ ideologies = [
         }
     },
     {
-        "name": "元中立主义者",
+        "name": "元中立主义",
         "stats": {
             "ther": 50,
             "belf": 50,
@@ -27,7 +27,7 @@ ideologies = [
         }
     },
         {
-        "name": "格雷格·格瓦拉主义者",
+        "name": "格雷格瓦拉主义者",
         "stats": {
             "ther": 50,
             "belf": 0,
