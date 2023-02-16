@@ -36,7 +36,7 @@ ideologies = [
         }
     },
     {
-        "name": "受欺负的孩子",
+        "name": "受欺凌的孩子",
         "stats": {
             "ther": 50,
             "belf": 100,
@@ -45,7 +45,7 @@ ideologies = [
         }
     },
     {
-        "name": "顶级厨师",
+        "name": "顶级大厨",
         "stats": {
             "ther": 50,
             "belf": 50,
