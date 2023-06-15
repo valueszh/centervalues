@@ -162,7 +162,7 @@ ideologies = [
         }
     },
     {
-        "name": "新反动主义者",
+        "name": "基于和红色药丸",
         "stats": {
             "ther": 0,
             "belf": 0,
